@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.PrivilegeDao">
+    <resultMap id="privilegeResultMap" type="Privilege">
+        <id property="id" column="privilegeId"/>
+        <result property="name" column="privilegeName"/>
+        <result property="parentPrivilege" column="parentPrivilege"/>
+        <result property="url" column="url"/>
+    </resultMap>
+    <insert id="addPrivilege" parameterType="Privilege">
+        INSERT INTO privilege(privilegeId, privilegeName, parentPrivilege, url, able)
+        VALUE (#{id}, #{name}, #{parentPrivilege}, #{url}, 1)
+    </insert>
+    <update id="updatePrivilege" parameterType="Privilege">
+        UPDATE privilege
+        SET privilegeName = #{name}, parentPrivilege = #{parentPrivilege}, url = #{url}, able = 1
+        WHERE privilegeId = #{id}
+    </update>
+    <update id="deletePrivilege" parameterType="string">
+        UPDATE privilege
+        SET able = 0
+        WHERE privilegeId = #{id}
+    </update>
+    <select id="queryDisabledPrivilege" resultMap="privilegeResultMap">
+        SELECT * from privilege
+        WHERE able = 0
+        order by privilegeId
+        limit 1;
+    </select>
+    <select id="queryPrivilegeByCode" resultMap="privilegeResultMap">
+        SELECT * FROM privilege
+        WHERE privilegeId = #{id} and able = 1;
+    </select>
+    <select id="queryPrivilegeByParent" resultMap="privilegeResultMap">
+        SELECT * FROM privilege
+        WHERE parentPrivilege = #{parentPrivilege} and able = 1;
+    </select>
+    <select id="queryAllPrivilege" resultMap="privilegeResultMap">
+        SELECT * FROM privilege
+        WHERE able = 1
+        order by privilegeId;
+    </select>
+    <!-- 批量删除 -->
+    <delete id="deletePrivilegeBatch" parameterType="java.util.List">
+        delete from privilege where privilegeId in
+        <foreach collection="list" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+</mapper>

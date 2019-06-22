@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.FlightDao">
+    <resultMap id="flightResultMap" type="Flight">
+        <id property="flightCode" column="flightCode"/>
+        <result property="date" column="date"/>
+        <result property="ETD" column="ETD"/>
+        <result property="ETA" column="ETA"/>
+        <result property="ATD" column="ATD"/>
+        <result property="ATA" column="ATA"/>
+        <result property="airline" column="airlineCode"/>
+        <result property="type" column="type"/>
+        <result property="departurePort" column="departureAirport"/>
+        <result property="arrivePort" column="arriveAirport"/>
+        <result property="mileage" column="mileage"/>
+        <result property="state" column="state"/>
+    </resultMap>
+    <insert id="addFlight" parameterType="Flight">
+        INSERT INTO flight(flightCode, date, ETD, ETA, ATD, ATA, airlineCode, type, departureAirport, arriveAirport, mileage, state)
+        VALUE (#{flightCode}, #{date}, #{ETD}, #{ETA}, #{ATD}, #{ATA}, #{airline}, #{type}, #{departurePort}, #{arrivePort}, #{mileage}, #{state})
+    </insert>
+    <update id="updateFlight" parameterType="Flight">
+        UPDATE user
+        SET
+        <if test="date != null">
+            date = #{date},
+        </if>
+        <if test="ETD != null">
+            ETD = #{ETD},
+        </if>
+        <if test="ETA != null">
+            ETA = #{ETA},
+        </if>
+        <if test="ATD != null">
+            ATD = #{ATD},
+        </if>
+        <if test="ATA != null">
+            ATA = #{ATA},
+        </if>
+        <if test="airline != null">
+            airlineCode = #{airlineCode},
+        </if>
+        <if test="type != null">
+            type = #{type},
+        </if>
+        <if test="departurePort != null">
+            departureAirport = #{departurePort},
+        </if>
+        <if test="arrivePort != null">
+            arriveAirport = #{arrivePort},
+        </if>
+        <if test="mileage != null">
+            mileage = #{mileage},
+        </if>
+        WHERE flightCode = #{flightCode}
+    </update>
+    <select id="queryFlightById" resultType="Flight" parameterType="string">
+        SELECT *
+        FROM flight
+        WHERE flightCode = #{flightCode}
+    </select>
+    <select id="queryAllFlight" resultMap="flightResultMap">
+        SELECT * FROM flight;
+    </select>
+</mapper>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.RolePrivilegeDao">
+    <resultMap id="rolePrivilegeResultMap" type="RolePrivilege">
+        <id property="roleId" column="roleId"/>
+        <id property="privilegeId" column="privilegeId"/>
+    </resultMap>
+    <insert id="addRolePrivilege" parameterType="RolePrivilege">
+        INSERT INTO roleprivilege(roleId, privilegeId)
+        VALUE
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.roleId}, #{item.privilegeId})
+        </foreach>
+    </insert>
+
+    <delete id="deleteRolePrivilegeByRoleId" parameterType="int">
+        delete from roleprivilege
+        where roleId = #{roleId}
+    </delete>
+
+    <delete id="deleteRolePrivilegeByPrivilegeId" parameterType="string">
+        delete from roleprivilege
+        where privilegeId = #{privilegeId}
+    </delete>
+
+    <select id="queryRolePrivilegeByRoleId" resultType="string">
+        SELECT privilegeId FROM roleprivilege
+        WHERE roleId = #{roleId}
+        ORDER BY roleId;
+    </select>
+
+    <!--批量删除-->
+    <delete id="deleteRolePrivilegeBatchByRole" parameterType="int[]">
+        delete from roleprivilege where roleId in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+</mapper>

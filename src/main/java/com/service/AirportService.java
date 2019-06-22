@@ -1,0 +1,18 @@
+package com.service;
+
+import com.pojo.Airport;
+
+import java.util.List;
+
+/**
+ * Created by dell on 2019/2/27.
+ */
+public interface AirportService {
+    int addAirport(Airport airport);
+
+    int updateAirport(Airport airport);
+
+    Airport queryAirportById(String airCode);
+
+    List<Airport> queryAllAirport();
+}

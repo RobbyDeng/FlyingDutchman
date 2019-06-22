@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.RoleDao">
+    <resultMap id="roleResultMap" type="Role">
+        <id property="id" column="roleId"/>
+        <result property="name" column="roleName"/>
+    </resultMap>
+    <insert id="addRole" parameterType="Role">
+        INSERT INTO role(roleName)
+        VALUE (#{name})
+    </insert>
+    <!--<update id="updateRolePrivilege" parameterType="Role">-->
+        <!--UPDATE rolePrivilege-->
+        <!--SET privilege = #{privilege}-->
+        <!--WHERE roleId = #{roleId}-->
+    <!--</update>-->
+    <select id="queryRoleByName" resultMap="roleResultMap" parameterType="string">
+        SELECT *
+        FROM role
+        WHERE roleName= #{name}
+    </select>
+    <select id="queryAllRole" resultMap="roleResultMap">
+        SELECT * FROM role;
+    </select>
+    <delete id="deleteRole" parameterType="int">
+        delete from role
+        where roleId = #{id}
+    </delete>
+    <!-- 批量删除 -->
+    <delete id="deleteRoleBatch" parameterType="int[]">
+        delete from role where roleId in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.TicketDao">
+    <resultMap id="ticketResultMap" type="Ticket">
+        <id property="flightCode" column="flightCode"/>
+        <result property="dateSource" column="dateSource"/>
+        <result property="date" column="date"/>
+        <result property="ETD" column="ETD"/>
+        <result property="origPrice" column="originPrice"/>
+        <result property="currPrice" column="currentPrice"/>
+        <result property="type" column="type"/>
+        <result property="transit" column="transit"/>
+        <result property="transfer" column="transfer"/>
+    </resultMap>
+    <insert id="addTicket" parameterType="Ticket">
+        INSERT INTO user(flightCode, dateSource, date, ETD, originPrice, currentPrice, type, transit, transfer)
+        VALUE (#{flightCode}, #{dateSource}, #{date}, #{ETD}, #{origPrice}, #{currPrice}, #{type}, #{transit}, #{transfer})
+    </insert>
+    <update id="updateTicket" parameterType="Ticket">
+        UPDATE ticket
+        SET
+        <if test="dateSource != null">
+            dateSource = #{dateSource},
+        </if>
+        <if test="date != null">
+            date = #{date},
+        </if>
+        <if test="ETD != null">
+            ETD = #{ETD},
+        </if>
+        <if test="origPrice != null">
+            originPrice = #{origPrice},
+        </if>
+        <if test="currPrice != null">
+            currentPrice = #{currPrice},
+        </if>
+        <if test="type != null">
+            type = #{type},
+        </if>
+        <if test="transit != null">
+            transit = #{transit},
+        </if>
+        <if test="transfer != null">
+            transfer = #{transfer},
+        </if>
+        WHERE flightCode = #{flightCode}
+    </update>
+    <select id="queryTicketById" resultType="Ticket" parameterType="string">
+        SELECT *
+        FROM ticket
+        WHERE flightCode = #{flightCode}
+    </select>
+    <select id="queryAllTicket" resultMap="ticketResultMap">
+        SELECT * FROM ticket;
+    </select>
+</mapper>

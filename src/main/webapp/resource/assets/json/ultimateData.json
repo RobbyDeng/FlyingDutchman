@@ -1,0 +1,8423 @@
+{
+  "company": [
+    [
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a"
+    ],
+    [
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a"
+    ],
+    [
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a"
+    ],
+    [
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a"
+    ],
+    [
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a"
+    ],
+    [
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a"
+    ],
+    [
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a"
+    ],
+    [
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a"
+    ],
+    [
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a"
+    ],
+    [
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a"
+    ],
+    [
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a"
+    ],
+    [
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a"
+    ],
+    [
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a"
+    ],
+    [
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a"
+    ],
+    [
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a"
+    ],
+    [
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a"
+    ],
+    [
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a"
+    ],
+    [
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a"
+    ],
+    [
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a"
+    ],
+    [
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a"
+    ],
+    [
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "QW \u9752\u5c9b\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "QW \u9752\u5c9b\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a"
+    ],
+    [
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "QW \u9752\u5c9b\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a"
+    ],
+    [
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "QW \u9752\u5c9b\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "AQ \u4e5d\u5143\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a"
+    ],
+    [
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a"
+    ],
+    [
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a"
+    ],
+    [
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "ZH \u6df1\u5733\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a"
+    ],
+    [
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a"
+    ],
+    [
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a"
+    ],
+    [
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "AQ \u4e5d\u5143\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a"
+    ],
+    [
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "FU \u798f\u5dde\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "AQ \u4e5d\u5143\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a"
+    ],
+    [
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "FU \u798f\u5dde\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "AQ \u4e5d\u5143\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a"
+    ],
+    [
+      "FU \u798f\u5dde\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "PN \u897f\u90e8\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a"
+    ],
+    [
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+      "QW \u9752\u5c9b\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a"
+    ],
+    [
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "FU \u798f\u5dde\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "OQ \u91cd\u5e86\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "GS \u5929\u6d25\u822a\u7a7a",
+      "MF \u53a6\u95e8\u822a\u7a7a"
+    ],
+    [
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "AQ \u4e5d\u5143\u822a\u7a7a",
+      "QW \u9752\u5c9b\u822a\u7a7a",
+      "NS \u6cb3\u5317\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a"
+    ],
+    [
+      "9C \u6625\u79cb\u822a\u7a7a",
+      "FM \u4e0a\u6d77\u822a\u7a7a",
+      "JR \u5e78\u798f\u822a\u7a7a",
+      "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+      "G5 \u534e\u590f\u822a\u7a7a",
+      "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+      "SC \u5c71\u4e1c\u822a\u7a7a",
+      "DR \u745e\u4e3d\u822a\u7a7a",
+      "TV \u897f\u85cf\u822a\u7a7a",
+      "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+      "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+      "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+      "3U \u56db\u5ddd\u822a\u7a7a",
+      "HU \u6d77\u5357\u822a\u7a7a",
+      "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+      "AQ \u4e5d\u5143\u822a\u7a7a",
+      "EU \u6210\u90fd\u822a\u7a7a",
+      "KY \u6606\u660e\u822a\u7a7a",
+      "BK \u5965\u51ef\u822a\u7a7a",
+      "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a"
+    ]
+  ],
+  "timeline": [
+    "2014-12",
+    "2015-01",
+    "2015-02",
+    "2015-03",
+    "2015-04",
+    "2015-05",
+    "2015-06",
+    "2015-07",
+    "2015-08",
+    "2015-09",
+    "2015-10",
+    "2015-11",
+    "2015-12",
+    "2016-01",
+    "2016-02",
+    "2016-03",
+    "2016-04",
+    "2016-05",
+    "2016-06",
+    "2016-07",
+    "2016-08",
+    "2016-09",
+    "2016-10",
+    "2016-11",
+    "2016-12",
+    "2017-01",
+    "2017-02",
+    "2017-03",
+    "2017-04",
+    "2017-05",
+    "2017-06",
+    "2017-07",
+    "2017-08",
+    "2017-09",
+    "2017-10",
+    "2017-11",
+    "2017-12",
+    "2018-01",
+    "2018-02",
+    "2018-03",
+    "2018-04",
+    "2018-05",
+    "2018-06",
+    "2018-07",
+    "2018-08",
+    "2018-09",
+    "2018-10",
+    "2018-11",
+    "2018-12",
+    "2019-01",
+    "2019-02"
+  ],
+  "series": [
+    [
+      [
+        34,
+        87,
+        2631,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        46,
+        87,
+        32968,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        31,
+        86,
+        3982,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        29,
+        86,
+        11083,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        41,
+        86,
+        2212,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        36,
+        86,
+        12460,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        36,
+        85,
+        57006,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        35,
+        85,
+        2802,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        36,
+        85,
+        2074,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        35,
+        81,
+        15881,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        34,
+        80,
+        47990,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        38,
+        79,
+        5606,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        38,
+        79,
+        6548,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        36,
+        78,
+        11025,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        45,
+        78,
+        4638,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        37,
+        77,
+        7151,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        41,
+        77,
+        6178,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        35,
+        76,
+        17315,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        34,
+        76,
+        15179,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2014-12"
+      ],
+      [
+        54,
+        71,
+        3155,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2014-12"
+      ]
+    ],
+    [
+      [
+        52,
+        87,
+        33190,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        32,
+        85,
+        11232,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        45,
+        83,
+        13333,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        47,
+        82,
+        5803,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        52,
+        81,
+        57304,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        42,
+        81,
+        7190,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        45,
+        81,
+        3236,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        48,
+        80,
+        2786,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        43,
+        79,
+        48033,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        44,
+        78,
+        16961,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        45,
+        78,
+        4321,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        45,
+        78,
+        6394,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        36,
+        76,
+        16762,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        46,
+        76,
+        2948,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        42,
+        75,
+        10533,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        44,
+        75,
+        2091,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        42,
+        74,
+        6537,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        38,
+        73,
+        15561,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        57,
+        73,
+        4480,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-01"
+      ],
+      [
+        65,
+        65,
+        3017,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-01"
+      ]
+    ],
+    [
+      [
+        49,
+        79,
+        32537,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        42,
+        78,
+        12838,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        38,
+        76,
+        2049,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        48,
+        74,
+        4131,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        50,
+        73,
+        10826,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        51,
+        73,
+        3143,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        48,
+        72,
+        2644,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        53,
+        71,
+        57564,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        44,
+        71,
+        10561,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        50,
+        69,
+        49606,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        58,
+        67,
+        4609,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        52,
+        67,
+        2986,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        53,
+        67,
+        6366,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        53,
+        66,
+        7644,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        50,
+        65,
+        2890,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        56,
+        64,
+        5565,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        49,
+        61,
+        17289,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        62,
+        61,
+        16957,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        55,
+        58,
+        15902,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-02"
+      ],
+      [
+        80,
+        50,
+        6875,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-02"
+      ]
+    ],
+    [
+      [
+        42,
+        83,
+        35119,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        37,
+        82,
+        13502,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        38,
+        81,
+        59543,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        37,
+        81,
+        2139,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        37,
+        80,
+        12217,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        39,
+        79,
+        2677,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        37,
+        77,
+        10450,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        45,
+        76,
+        3344,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        41,
+        76,
+        52192,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        39,
+        76,
+        3068,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        40,
+        75,
+        16255,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        40,
+        73,
+        4991,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        47,
+        73,
+        3133,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        47,
+        73,
+        6797,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        45,
+        73,
+        6159,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        37,
+        72,
+        18011,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        46,
+        71,
+        7809,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        52,
+        70,
+        4557,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        45,
+        65,
+        16775,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-03"
+      ],
+      [
+        52,
+        63,
+        6751,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-03"
+      ]
+    ],
+    [
+      [
+        52,
+        79,
+        33711,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        45,
+        79,
+        11780,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        43,
+        77,
+        3199,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        42,
+        77,
+        9934,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        44,
+        77,
+        2119,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        49,
+        76,
+        58409,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        46,
+        75,
+        13327,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        48,
+        73,
+        15246,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        45,
+        72,
+        2915,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        56,
+        72,
+        4156,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        47,
+        72,
+        2732,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        49,
+        71,
+        52114,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        54,
+        71,
+        5944,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        48,
+        70,
+        4786,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        54,
+        65,
+        2956,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        51,
+        65,
+        17396,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        59,
+        65,
+        6675,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        62,
+        63,
+        7736,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        59,
+        59,
+        6804,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-04"
+      ],
+      [
+        53,
+        56,
+        16992,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-04"
+      ]
+    ],
+    [
+      [
+        45,
+        81,
+        10180,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        46,
+        79,
+        2061,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        61,
+        79,
+        12221,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        57,
+        78,
+        3539,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        69,
+        78,
+        34751,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        52,
+        77,
+        13412,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        48,
+        75,
+        4717,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        51,
+        73,
+        3504,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        59,
+        72,
+        2708,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        59,
+        72,
+        52441,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        65,
+        71,
+        6167,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        62,
+        70,
+        3153,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        81,
+        70,
+        56666,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        79,
+        68,
+        14941,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        73,
+        65,
+        6765,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        80,
+        63,
+        7942,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        76,
+        62,
+        4426,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        72,
+        62,
+        6870,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        63,
+        61,
+        16847,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-05"
+      ],
+      [
+        90,
+        53,
+        17618,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-05"
+      ]
+    ],
+    [
+      [
+        58,
+        78,
+        11555,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        51,
+        78,
+        10182,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        64,
+        77,
+        3640,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        60,
+        76,
+        2109,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        43,
+        74,
+        3298,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        62,
+        72,
+        4334,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        70,
+        71,
+        56279,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        74,
+        71,
+        33717,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        68,
+        69,
+        12973,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        66,
+        69,
+        49298,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        72,
+        68,
+        14325,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        69,
+        65,
+        6648,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        84,
+        64,
+        3915,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        82,
+        64,
+        6083,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        74,
+        64,
+        3100,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        69,
+        63,
+        2620,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        83,
+        63,
+        6348,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        85,
+        60,
+        7273,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        80,
+        56,
+        17396,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-06"
+      ],
+      [
+        72,
+        55,
+        16072,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-06"
+      ]
+    ],
+    [
+      [
+        73,
+        76,
+        3431,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        61,
+        76,
+        13079,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        55,
+        73,
+        11406,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        61,
+        70,
+        2387,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        69,
+        70,
+        62225,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        59,
+        69,
+        2069,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        59,
+        69,
+        2903,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        69,
+        68,
+        4998,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        62,
+        68,
+        14553,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        65,
+        67,
+        6706,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        72,
+        66,
+        15288,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        83,
+        66,
+        36465,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        69,
+        64,
+        56842,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        63,
+        61,
+        3984,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        71,
+        60,
+        8270,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        83,
+        59,
+        7818,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        85,
+        59,
+        7212,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        87,
+        56,
+        3485,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        79,
+        54,
+        19857,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-07"
+      ],
+      [
+        79,
+        51,
+        18445,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-07"
+      ]
+    ],
+    [
+      [
+        64,
+        77,
+        3579,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        48,
+        74,
+        2386,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        58,
+        73,
+        37240,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        43,
+        73,
+        2923,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        57,
+        71,
+        64049,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        52,
+        71,
+        11980,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        60,
+        71,
+        13430,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        56,
+        70,
+        16247,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        56,
+        69,
+        14672,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        60,
+        67,
+        7023,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        61,
+        64,
+        58354,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        64,
+        63,
+        5087,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        73,
+        62,
+        2170,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        65,
+        61,
+        8087,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        64,
+        61,
+        8604,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        72,
+        60,
+        7462,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        62,
+        60,
+        4006,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        76,
+        59,
+        2056,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        68,
+        59,
+        3624,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-08"
+      ],
+      [
+        68,
+        57,
+        20197,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-08"
+      ]
+    ],
+    [
+      [
+        30,
+        88,
+        12725,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        29,
+        87,
+        2149,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        37,
+        87,
+        35211,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        33,
+        86,
+        5603,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        45,
+        84,
+        3083,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        38,
+        84,
+        6474,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        35,
+        84,
+        16746,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        37,
+        84,
+        58995,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        35,
+        82,
+        14243,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        35,
+        82,
+        53491,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        40,
+        82,
+        8234,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        32,
+        81,
+        2887,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        40,
+        81,
+        6706,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        37,
+        80,
+        11405,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        37,
+        78,
+        3603,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        39,
+        76,
+        18407,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        48,
+        75,
+        2061,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        47,
+        75,
+        4583,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        42,
+        75,
+        2095,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2015-09"
+      ],
+      [
+        39,
+        74,
+        16544,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-09"
+      ]
+    ],
+    [
+      [
+        30,
+        92,
+        36486,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        30,
+        91,
+        6817,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        27,
+        90,
+        13334,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        30,
+        90,
+        57594,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        29,
+        90,
+        17662,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        25,
+        89,
+        2223,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        31,
+        89,
+        14355,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        29,
+        88,
+        8437,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        26,
+        88,
+        2944,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        31,
+        88,
+        2036,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        30,
+        87,
+        54719,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        32,
+        87,
+        7117,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        37,
+        86,
+        2129,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        37,
+        85,
+        7039,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        28,
+        85,
+        17694,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        35,
+        84,
+        11560,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        30,
+        84,
+        18830,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        46,
+        82,
+        3736,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        30,
+        82,
+        2275,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2015-10"
+      ],
+      [
+        37,
+        82,
+        4784,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-10"
+      ]
+    ],
+    [
+      [
+        26,
+        93,
+        6590,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        34,
+        91,
+        8107,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        30,
+        91,
+        2225,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        34,
+        91,
+        16501,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        29,
+        91,
+        2630,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        37,
+        90,
+        6097,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        38,
+        88,
+        12451,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        49,
+        88,
+        51859,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        65,
+        88,
+        6628,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        38,
+        88,
+        50839,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        35,
+        87,
+        17383,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        54,
+        87,
+        32972,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        42,
+        87,
+        12779,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        48,
+        85,
+        17147,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        45,
+        85,
+        11069,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        44,
+        84,
+        4470,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        47,
+        81,
+        3223,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        56,
+        81,
+        3361,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        43,
+        80,
+        3891,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-11"
+      ],
+      [
+        50,
+        76,
+        2088,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2015-11"
+      ]
+    ],
+    [
+      [
+        33,
+        91,
+        16029,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        39,
+        91,
+        6858,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        42,
+        91,
+        3156,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        42,
+        89,
+        8345,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        46,
+        88,
+        34484,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        53,
+        87,
+        12726,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        51,
+        86,
+        7193,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        76,
+        86,
+        6965,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        57,
+        85,
+        12634,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        41,
+        85,
+        17868,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        58,
+        85,
+        52954,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        44,
+        85,
+        52714,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        55,
+        84,
+        2077,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        49,
+        84,
+        17930,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        48,
+        82,
+        11447,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        55,
+        82,
+        3561,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        50,
+        81,
+        2284,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        54,
+        77,
+        3975,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        93,
+        70,
+        3478,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2015-12"
+      ],
+      [
+        80,
+        70,
+        2124,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2015-12"
+      ]
+    ],
+    [
+      [
+        34,
+        90,
+        7378,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        67,
+        88,
+        7287,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        38,
+        87,
+        16738,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        43,
+        86,
+        35544,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        43,
+        86,
+        3200,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        43,
+        86,
+        7460,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        41,
+        85,
+        8534,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        46,
+        85,
+        13247,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        42,
+        84,
+        4018,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        54,
+        84,
+        14060,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        43,
+        83,
+        2188,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        46,
+        83,
+        55345,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        47,
+        83,
+        18663,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        54,
+        83,
+        57038,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        41,
+        82,
+        3969,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        53,
+        82,
+        2241,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        47,
+        82,
+        10719,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        41,
+        81,
+        18620,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        37,
+        80,
+        2082,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2016-01"
+      ],
+      [
+        53,
+        78,
+        4273,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-01"
+      ]
+    ],
+    [
+      [
+        39,
+        89,
+        35033,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        50,
+        89,
+        6929,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        35,
+        88,
+        6984,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        33,
+        88,
+        3209,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        41,
+        88,
+        13747,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        35,
+        88,
+        7590,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        30,
+        86,
+        2508,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        46,
+        86,
+        56262,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        45,
+        86,
+        19463,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        36,
+        86,
+        4380,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        38,
+        85,
+        17477,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        35,
+        85,
+        18105,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        47,
+        85,
+        13096,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        39,
+        84,
+        8582,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        48,
+        83,
+        3886,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        42,
+        83,
+        54543,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        54,
+        82,
+        11075,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        45,
+        79,
+        4019,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        45,
+        78,
+        4881,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-02"
+      ],
+      [
+        50,
+        76,
+        3642,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-02"
+      ]
+    ],
+    [
+      [
+        37,
+        91,
+        36542,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        29,
+        91,
+        2328,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        34,
+        90,
+        14668,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        38,
+        90,
+        10770,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        30,
+        90,
+        4653,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        34,
+        89,
+        3297,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        37,
+        89,
+        12569,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        30,
+        88,
+        2172,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        38,
+        88,
+        7917,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        50,
+        87,
+        2195,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        55,
+        86,
+        55726,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        38,
+        86,
+        17402,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        47,
+        86,
+        3859,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        41,
+        85,
+        54640,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        59,
+        85,
+        6361,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        35,
+        85,
+        5010,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        45,
+        85,
+        6970,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        52,
+        85,
+        18878,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        44,
+        83,
+        3935,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2016-03"
+      ],
+      [
+        46,
+        82,
+        18340,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-03"
+      ]
+    ],
+    [
+      [
+        31,
+        89,
+        10692,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        43,
+        88,
+        3716,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        45,
+        86,
+        13153,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        40,
+        86,
+        2551,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        44,
+        84,
+        4505,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        49,
+        84,
+        36407,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        51,
+        83,
+        14275,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        45,
+        82,
+        7907,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        55,
+        81,
+        4795,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        54,
+        81,
+        3221,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        50,
+        80,
+        53756,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        58,
+        80,
+        56059,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        51,
+        79,
+        2315,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        58,
+        79,
+        18493,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        75,
+        79,
+        6630,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        50,
+        77,
+        16798,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        61,
+        76,
+        7030,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        64,
+        75,
+        2203,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        53,
+        74,
+        2228,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-04"
+      ],
+      [
+        55,
+        74,
+        4167,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2016-04"
+      ]
+    ],
+    [
+      [
+        38,
+        90,
+        9923,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        46,
+        89,
+        3563,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        44,
+        89,
+        2383,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        49,
+        88,
+        14744,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        40,
+        88,
+        4664,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        42,
+        87,
+        5064,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        49,
+        87,
+        12656,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        51,
+        87,
+        3444,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        53,
+        86,
+        37041,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        73,
+        85,
+        6764,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        46,
+        84,
+        54866,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        54,
+        84,
+        7653,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        44,
+        84,
+        15440,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        54,
+        83,
+        2269,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        67,
+        83,
+        56397,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        55,
+        83,
+        6884,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        51,
+        83,
+        2161,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        59,
+        82,
+        2341,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        65,
+        81,
+        18248,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-05"
+      ],
+      [
+        57,
+        81,
+        3671,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-05"
+      ]
+    ],
+    [
+      [
+        55,
+        85,
+        3263,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        52,
+        84,
+        9786,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        44,
+        83,
+        2343,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        51,
+        82,
+        3380,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        65,
+        81,
+        12232,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        55,
+        80,
+        4677,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        63,
+        79,
+        5042,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        65,
+        78,
+        14724,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        65,
+        77,
+        7015,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        78,
+        76,
+        54470,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        72,
+        75,
+        17775,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        80,
+        74,
+        35215,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        67,
+        73,
+        51722,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        67,
+        73,
+        3604,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        91,
+        72,
+        6747,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        58,
+        72,
+        15146,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        78,
+        70,
+        7102,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        74,
+        70,
+        3580,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        78,
+        69,
+        2440,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-06"
+      ],
+      [
+        72,
+        67,
+        18724,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-06"
+      ]
+    ],
+    [
+      [
+        50,
+        85,
+        3624,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        47,
+        83,
+        11131,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        44,
+        82,
+        5219,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        51,
+        80,
+        15505,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        59,
+        79,
+        7968,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        59,
+        78,
+        62442,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        51,
+        78,
+        3429,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        58,
+        77,
+        19862,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        52,
+        77,
+        2788,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        59,
+        77,
+        15437,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        65,
+        76,
+        37280,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        70,
+        76,
+        2077,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        75,
+        75,
+        8190,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        58,
+        75,
+        4173,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        64,
+        75,
+        5468,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        64,
+        74,
+        2327,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        61,
+        73,
+        58594,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        72,
+        73,
+        8039,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        59,
+        72,
+        2658,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-07"
+      ],
+      [
+        55,
+        72,
+        18616,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-07"
+      ]
+    ],
+    [
+      [
+        42,
+        87,
+        3984,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        55,
+        85,
+        8477,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        37,
+        85,
+        11343,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        49,
+        84,
+        8159,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        45,
+        83,
+        8381,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        40,
+        83,
+        3594,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        43,
+        82,
+        16104,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        38,
+        82,
+        5846,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        46,
+        82,
+        2702,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        54,
+        81,
+        20359,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        53,
+        81,
+        37572,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        52,
+        81,
+        15629,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        56,
+        80,
+        64101,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        57,
+        80,
+        2046,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        43,
+        78,
+        19161,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        52,
+        78,
+        60061,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        58,
+        78,
+        5863,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        53,
+        77,
+        2593,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        55,
+        77,
+        10862,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2016-08"
+      ],
+      [
+        52,
+        76,
+        20928,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-08"
+      ]
+    ],
+    [
+      [
+        31,
+        89,
+        3482,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        40,
+        89,
+        3821,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        53,
+        87,
+        7932,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        34,
+        86,
+        7252,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        40,
+        86,
+        7206,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        37,
+        86,
+        14376,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        36,
+        86,
+        10576,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        43,
+        86,
+        58265,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        30,
+        84,
+        2437,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        45,
+        84,
+        19175,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        43,
+        84,
+        5452,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        46,
+        84,
+        7597,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        44,
+        83,
+        14972,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        49,
+        83,
+        36598,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        40,
+        82,
+        19647,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        38,
+        82,
+        2413,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        43,
+        82,
+        55961,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        54,
+        81,
+        3981,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        44,
+        80,
+        9904,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2016-09"
+      ],
+      [
+        52,
+        80,
+        2452,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2016-09"
+      ]
+    ],
+    [
+      [
+        26,
+        90,
+        2565,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        38,
+        89,
+        60062,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        36,
+        89,
+        3888,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        34,
+        89,
+        11171,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        35,
+        89,
+        19916,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        36,
+        88,
+        6198,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        30,
+        88,
+        3737,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        40,
+        88,
+        7461,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        43,
+        88,
+        2114,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        34,
+        88,
+        15274,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        40,
+        88,
+        4217,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        38,
+        87,
+        2633,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        33,
+        87,
+        7714,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        34,
+        87,
+        17189,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        40,
+        86,
+        37850,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        40,
+        86,
+        15605,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        30,
+        86,
+        2660,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        57,
+        85,
+        7971,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        39,
+        84,
+        19918,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-10"
+      ],
+      [
+        53,
+        82,
+        7529,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-10"
+      ]
+    ],
+    [
+      [
+        40,
+        89,
+        2335,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        54,
+        86,
+        7316,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        32,
+        86,
+        8967,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        47,
+        86,
+        3773,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        44,
+        85,
+        13600,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        52,
+        85,
+        7278,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        37,
+        84,
+        16742,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        46,
+        84,
+        18867,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        43,
+        84,
+        18187,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        33,
+        84,
+        2704,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        50,
+        84,
+        35380,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        50,
+        84,
+        14298,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        44,
+        84,
+        7090,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        54,
+        82,
+        10265,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        44,
+        82,
+        54068,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        52,
+        81,
+        2164,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        44,
+        80,
+        2501,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        67,
+        79,
+        2256,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        47,
+        78,
+        9487,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2016-11"
+      ],
+      [
+        55,
+        77,
+        3556,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2016-11"
+      ]
+    ],
+    [
+      [
+        52,
+        90,
+        8341,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        40,
+        89,
+        7494,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        35,
+        88,
+        10775,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        46,
+        88,
+        13626,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        45,
+        88,
+        10036,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        37,
+        87,
+        2272,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        52,
+        87,
+        2262,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        39,
+        87,
+        19178,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        34,
+        87,
+        16625,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        41,
+        87,
+        19376,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        45,
+        87,
+        4035,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        40,
+        87,
+        2757,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        50,
+        86,
+        7371,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        39,
+        86,
+        54959,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        37,
+        86,
+        9791,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        53,
+        86,
+        57651,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        50,
+        85,
+        35981,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        40,
+        83,
+        2716,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        50,
+        83,
+        5684,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2016-12"
+      ],
+      [
+        67,
+        83,
+        2529,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2016-12"
+      ]
+    ],
+    [
+      [
+        49,
+        88,
+        2307,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        44,
+        86,
+        8034,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        66,
+        85,
+        8686,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        40,
+        83,
+        8386,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        33,
+        83,
+        3027,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        49,
+        83,
+        2593,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        51,
+        82,
+        4292,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        44,
+        81,
+        58381,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        51,
+        81,
+        8099,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        53,
+        81,
+        15390,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        49,
+        80,
+        20995,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        50,
+        80,
+        19895,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        54,
+        80,
+        60517,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        51,
+        80,
+        37433,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        37,
+        79,
+        3077,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        48,
+        79,
+        9956,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        62,
+        78,
+        4362,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        64,
+        78,
+        10795,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        51,
+        78,
+        6448,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-01"
+      ],
+      [
+        57,
+        77,
+        14483,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-01"
+      ]
+    ],
+    [
+      [
+        44,
+        91,
+        2180,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        46,
+        88,
+        8240,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        41,
+        84,
+        7650,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        49,
+        84,
+        34559,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        50,
+        82,
+        4581,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        55,
+        81,
+        55991,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        43,
+        81,
+        5489,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        48,
+        81,
+        20007,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        47,
+        80,
+        18129,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        47,
+        80,
+        54681,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        54,
+        80,
+        14125,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        59,
+        80,
+        10448,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        60,
+        79,
+        3992,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        47,
+        79,
+        9295,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        41,
+        78,
+        17081,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        56,
+        78,
+        14863,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        56,
+        78,
+        7743,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        79,
+        78,
+        2418,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        46,
+        76,
+        2864,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2017-02"
+      ],
+      [
+        45,
+        74,
+        2516,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2017-02"
+      ]
+    ],
+    [
+      [
+        39,
+        91,
+        2340,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        38,
+        90,
+        2037,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        39,
+        89,
+        8870,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        27,
+        89,
+        5791,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        33,
+        87,
+        14417,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        42,
+        86,
+        4710,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        31,
+        86,
+        16730,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        39,
+        85,
+        11191,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        38,
+        85,
+        8084,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        44,
+        84,
+        59895,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        45,
+        84,
+        4394,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        41,
+        83,
+        20318,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        46,
+        83,
+        37749,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        45,
+        83,
+        14640,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        37,
+        83,
+        59108,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        39,
+        82,
+        2302,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        41,
+        82,
+        6488,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        33,
+        81,
+        2923,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        44,
+        81,
+        8223,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-03"
+      ],
+      [
+        44,
+        81,
+        19443,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2017-03"
+      ]
+    ],
+    [
+      [
+        32,
+        89,
+        5616,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        43,
+        89,
+        2740,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        45,
+        86,
+        2132,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        44,
+        86,
+        11452,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        34,
+        86,
+        2142,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        47,
+        85,
+        8513,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        49,
+        83,
+        4905,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        33,
+        82,
+        2933,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        47,
+        82,
+        6381,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        56,
+        80,
+        57424,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        51,
+        79,
+        2474,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        48,
+        79,
+        8530,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        51,
+        79,
+        3702,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        56,
+        79,
+        4398,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        56,
+        79,
+        14963,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        60,
+        78,
+        2793,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        50,
+        78,
+        56757,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        49,
+        76,
+        14818,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        54,
+        76,
+        20103,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-04"
+      ],
+      [
+        52,
+        76,
+        7818,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-04"
+      ]
+    ],
+    [
+      [
+        29,
+        89,
+        2232,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        47,
+        87,
+        2754,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        39,
+        86,
+        5781,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        36,
+        86,
+        2890,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        56,
+        82,
+        2939,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        46,
+        82,
+        6312,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        55,
+        82,
+        11222,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        55,
+        82,
+        9059,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        50,
+        81,
+        3821,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        47,
+        80,
+        58423,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        58,
+        79,
+        14753,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        54,
+        79,
+        2551,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        62,
+        79,
+        59862,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        56,
+        79,
+        37448,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        53,
+        78,
+        8139,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        54,
+        78,
+        8495,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        48,
+        78,
+        16201,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        90,
+        77,
+        2311,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        57,
+        77,
+        2868,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2017-05"
+      ],
+      [
+        65,
+        76,
+        4471,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-05"
+      ]
+    ],
+    [
+      [
+        70,
+        79,
+        2922,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        56,
+        78,
+        2102,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        52,
+        77,
+        5866,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        62,
+        73,
+        6039,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        73,
+        71,
+        3632,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        68,
+        71,
+        10828,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        69,
+        71,
+        2696,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        74,
+        70,
+        15123,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        86,
+        69,
+        3167,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        75,
+        69,
+        2777,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        75,
+        68,
+        55617,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        73,
+        68,
+        8376,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        81,
+        68,
+        35887,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        102,
+        67,
+        2082,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        89,
+        67,
+        8731,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        88,
+        66,
+        57191,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        81,
+        65,
+        2691,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        73,
+        65,
+        15389,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        81,
+        64,
+        4363,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-06"
+      ],
+      [
+        71,
+        63,
+        3196,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2017-06"
+      ]
+    ],
+    [
+      [
+        82,
+        76,
+        3305,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        64,
+        69,
+        3104,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        65,
+        68,
+        6419,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        81,
+        65,
+        11787,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        87,
+        64,
+        63704,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        78,
+        64,
+        6519,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        83,
+        63,
+        2089,
+        "QW \u9752\u5c9b\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        84,
+        62,
+        2190,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        79,
+        62,
+        10137,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        82,
+        61,
+        9214,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        83,
+        61,
+        62385,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        80,
+        60,
+        4090,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        101,
+        60,
+        9975,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        91,
+        60,
+        3115,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        94,
+        59,
+        16264,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        100,
+        59,
+        9384,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        93,
+        58,
+        21102,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        100,
+        58,
+        37276,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        87,
+        58,
+        4622,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-07"
+      ],
+      [
+        102,
+        57,
+        3174,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2017-07"
+      ]
+    ],
+    [
+      [
+        90,
+        75,
+        3498,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        51,
+        74,
+        6583,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        66,
+        71,
+        2204,
+        "QW \u9752\u5c9b\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        73,
+        70,
+        11831,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        69,
+        69,
+        2241,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        83,
+        68,
+        65312,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        83,
+        66,
+        2869,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        61,
+        66,
+        3221,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        92,
+        65,
+        38414,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        84,
+        64,
+        21980,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        86,
+        64,
+        9655,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        83,
+        63,
+        62886,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        91,
+        63,
+        3363,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        86,
+        62,
+        15741,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        76,
+        61,
+        18098,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        83,
+        61,
+        4588,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        92,
+        61,
+        2331,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        85,
+        61,
+        6608,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        81,
+        60,
+        3093,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-08"
+      ],
+      [
+        110,
+        60,
+        9858,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-08"
+      ]
+    ],
+    [
+      [
+        35,
+        85,
+        6534,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        51,
+        85,
+        8800,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        39,
+        84,
+        2277,
+        "QW \u9752\u5c9b\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        48,
+        83,
+        39086,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        58,
+        83,
+        3308,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        47,
+        83,
+        11061,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        52,
+        82,
+        8420,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        45,
+        82,
+        58936,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        48,
+        81,
+        61404,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        80,
+        81,
+        2100,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        44,
+        81,
+        2050,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        55,
+        80,
+        2799,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        46,
+        79,
+        6387,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        52,
+        79,
+        10311,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        48,
+        79,
+        21668,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        41,
+        79,
+        2515,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        43,
+        78,
+        16424,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        51,
+        78,
+        15716,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        56,
+        77,
+        4393,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-09"
+      ],
+      [
+        53,
+        77,
+        8915,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-09"
+      ]
+    ],
+    [
+      [
+        33,
+        91,
+        8665,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        38,
+        90,
+        62603,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        47,
+        90,
+        9364,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        41,
+        90,
+        2140,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        34,
+        90,
+        60690,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        31,
+        90,
+        6666,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        42,
+        89,
+        40203,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        33,
+        89,
+        2186,
+        "QW \u9752\u5c9b\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        61,
+        89,
+        2320,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        34,
+        89,
+        2515,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        28,
+        89,
+        2133,
+        "AQ \u4e5d\u5143\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        35,
+        89,
+        10830,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        38,
+        88,
+        22473,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        45,
+        88,
+        11190,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        39,
+        87,
+        9186,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        40,
+        87,
+        16620,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        34,
+        86,
+        3969,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        39,
+        86,
+        2404,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        43,
+        86,
+        4525,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2017-10"
+      ],
+      [
+        49,
+        86,
+        3056,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-10"
+      ]
+    ],
+    [
+      [
+        35,
+        94,
+        8515,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        35,
+        92,
+        2162,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        31,
+        92,
+        9093,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        34,
+        91,
+        10530,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        29,
+        91,
+        58217,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        38,
+        90,
+        58330,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        43,
+        90,
+        2724,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        48,
+        90,
+        2063,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        28,
+        89,
+        3051,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        30,
+        89,
+        3522,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        30,
+        89,
+        8313,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        32,
+        89,
+        21487,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        31,
+        89,
+        6456,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        38,
+        89,
+        38337,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        35,
+        88,
+        16199,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        42,
+        87,
+        15948,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        42,
+        87,
+        10502,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        44,
+        87,
+        3051,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        36,
+        87,
+        19441,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2017-11"
+      ],
+      [
+        40,
+        86,
+        6543,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2017-11"
+      ]
+    ],
+    [
+      [
+        27,
+        96,
+        8638,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        28,
+        95,
+        9448,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        25,
+        94,
+        10521,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        27,
+        92,
+        8118,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        30,
+        92,
+        59556,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        29,
+        92,
+        22016,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        43,
+        92,
+        2924,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        37,
+        92,
+        60186,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        26,
+        91,
+        3792,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        24,
+        91,
+        18292,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        32,
+        91,
+        3044,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        38,
+        91,
+        2369,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        28,
+        91,
+        6695,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        37,
+        91,
+        38804,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        53,
+        90,
+        2232,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        33,
+        90,
+        19464,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        35,
+        90,
+        10487,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        30,
+        90,
+        15807,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        45,
+        90,
+        15732,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2017-12"
+      ],
+      [
+        36,
+        89,
+        2850,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2017-12"
+      ]
+    ],
+    [
+      [
+        65,
+        90,
+        2327,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        49,
+        90,
+        8774,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        39,
+        90,
+        16257,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        39,
+        89,
+        39034,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        44,
+        89,
+        9918,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        29,
+        88,
+        2261,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        31,
+        88,
+        3046,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        47,
+        88,
+        60455,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        50,
+        88,
+        2789,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        31,
+        88,
+        6499,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        35,
+        88,
+        8216,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        39,
+        87,
+        59043,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        39,
+        87,
+        22523,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        43,
+        87,
+        10516,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        33,
+        87,
+        17651,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        44,
+        86,
+        3296,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        47,
+        86,
+        4089,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        37,
+        86,
+        16146,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        56,
+        86,
+        2178,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-01"
+      ],
+      [
+        39,
+        85,
+        9910,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-01"
+      ]
+    ],
+    [
+      [
+        37,
+        92,
+        2845,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        39,
+        90,
+        9508,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        42,
+        90,
+        9002,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        45,
+        86,
+        59430,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        44,
+        86,
+        37202,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        44,
+        86,
+        2305,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        44,
+        85,
+        10350,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        34,
+        85,
+        6541,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        47,
+        85,
+        2461,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        43,
+        85,
+        15688,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        43,
+        84,
+        58934,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        40,
+        84,
+        8143,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        41,
+        83,
+        22786,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        46,
+        83,
+        2942,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        38,
+        83,
+        16151,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        43,
+        82,
+        19687,
+        "ZH \u6df1\u5733\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        38,
+        82,
+        4321,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        45,
+        82,
+        4628,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        42,
+        81,
+        2395,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-02"
+      ],
+      [
+        50,
+        80,
+        9967,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-02"
+      ]
+    ],
+    [
+      [
+        28,
+        91,
+        2542,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        87,
+        89,
+        2471,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        48,
+        88,
+        9197,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        56,
+        88,
+        2888,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        32,
+        88,
+        2904,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        48,
+        88,
+        10434,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        41,
+        88,
+        16460,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        35,
+        88,
+        7124,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        40,
+        87,
+        61245,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        48,
+        87,
+        62955,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        44,
+        87,
+        3283,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        47,
+        86,
+        40593,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        41,
+        86,
+        17195,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        37,
+        85,
+        6878,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        37,
+        85,
+        4621,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        49,
+        85,
+        10726,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        41,
+        85,
+        8877,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        45,
+        85,
+        10513,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        47,
+        85,
+        2627,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-03"
+      ],
+      [
+        44,
+        84,
+        23818,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-03"
+      ]
+    ],
+    [
+      [
+        50,
+        89,
+        2394,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        44,
+        88,
+        10245,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        36,
+        87,
+        6891,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        48,
+        86,
+        2519,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        45,
+        86,
+        10505,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        46,
+        86,
+        9317,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        41,
+        85,
+        61497,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        43,
+        85,
+        2385,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        51,
+        85,
+        61078,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        51,
+        84,
+        39547,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        44,
+        84,
+        10461,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        47,
+        84,
+        16368,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        39,
+        84,
+        6536,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        53,
+        83,
+        3316,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        45,
+        83,
+        8713,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        52,
+        82,
+        4161,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        51,
+        82,
+        3152,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        49,
+        82,
+        4424,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        45,
+        81,
+        16469,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-04"
+      ],
+      [
+        51,
+        80,
+        23205,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-04"
+      ]
+    ],
+    [
+      [
+        61,
+        88,
+        2317,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        39,
+        87,
+        2422,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        43,
+        86,
+        10306,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        44,
+        85,
+        7216,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        60,
+        85,
+        10427,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        58,
+        84,
+        8972,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        49,
+        84,
+        61852,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        58,
+        84,
+        39638,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        61,
+        83,
+        62473,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        57,
+        83,
+        10603,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        53,
+        83,
+        3593,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        45,
+        82,
+        6723,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        49,
+        82,
+        17038,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        50,
+        81,
+        8708,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        53,
+        81,
+        23057,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        51,
+        81,
+        3089,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        56,
+        80,
+        4666,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        81,
+        80,
+        2649,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        59,
+        79,
+        16716,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-05"
+      ],
+      [
+        56,
+        79,
+        4903,
+        "KN \u4e2d\u56fd\u8054\u5408\u822a\u7a7a",
+        "2018-05"
+      ]
+    ],
+    [
+      [
+        39,
+        89,
+        8839,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        46,
+        88,
+        10349,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        43,
+        87,
+        2499,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        41,
+        87,
+        7335,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        36,
+        87,
+        9503,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        46,
+        87,
+        2411,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        41,
+        86,
+        2897,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        39,
+        86,
+        4625,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        63,
+        86,
+        2460,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        49,
+        85,
+        10371,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        44,
+        85,
+        60520,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        36,
+        85,
+        6352,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        47,
+        84,
+        2559,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        46,
+        84,
+        8797,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        46,
+        84,
+        3159,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        48,
+        84,
+        3903,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        51,
+        83,
+        16294,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        49,
+        83,
+        16779,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        54,
+        83,
+        60221,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-06"
+      ],
+      [
+        53,
+        82,
+        3017,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-06"
+      ]
+    ],
+    [
+      [
+        47,
+        83,
+        7846,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        45,
+        83,
+        10985,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        76,
+        82,
+        2598,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        50,
+        82,
+        3329,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        61,
+        82,
+        10801,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        48,
+        81,
+        2678,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        51,
+        81,
+        2388,
+        "AQ \u4e5d\u5143\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        59,
+        81,
+        9843,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        61,
+        80,
+        10477,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        51,
+        80,
+        18776,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        58,
+        79,
+        64935,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        54,
+        78,
+        3365,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        55,
+        78,
+        4822,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        63,
+        78,
+        66384,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        67,
+        78,
+        2684,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        58,
+        78,
+        3525,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        66,
+        77,
+        3037,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        62,
+        77,
+        3058,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        63,
+        77,
+        9264,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-07"
+      ],
+      [
+        57,
+        77,
+        2665,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-07"
+      ]
+    ],
+    [
+      [
+        60,
+        86,
+        2831,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        42,
+        84,
+        6935,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        49,
+        83,
+        11170,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        50,
+        81,
+        4996,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        56,
+        80,
+        2158,
+        "FU \u798f\u5dde\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        65,
+        80,
+        3119,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        51,
+        80,
+        3310,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        65,
+        79,
+        10797,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        58,
+        79,
+        18946,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        55,
+        79,
+        2696,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        67,
+        77,
+        10428,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        59,
+        77,
+        65618,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        57,
+        77,
+        2418,
+        "AQ \u4e5d\u5143\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        69,
+        77,
+        41083,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        65,
+        76,
+        18038,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        67,
+        76,
+        9705,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        64,
+        76,
+        24113,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        63,
+        75,
+        3128,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        61,
+        75,
+        3582,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-08"
+      ],
+      [
+        65,
+        75,
+        9330,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-08"
+      ]
+    ],
+    [
+      [
+        35,
+        91,
+        2887,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        35,
+        91,
+        2068,
+        "FU \u798f\u5dde\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        33,
+        91,
+        7012,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        60,
+        90,
+        2768,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        46,
+        89,
+        10467,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        37,
+        89,
+        10342,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        37,
+        89,
+        17535,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        33,
+        88,
+        4884,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        49,
+        88,
+        2414,
+        "AQ \u4e5d\u5143\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        42,
+        87,
+        2497,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        40,
+        87,
+        3392,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        45,
+        87,
+        39288,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        48,
+        87,
+        8681,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        47,
+        87,
+        2851,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        46,
+        87,
+        62628,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        43,
+        86,
+        23220,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        40,
+        86,
+        2583,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        47,
+        86,
+        10365,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        43,
+        86,
+        61657,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-09"
+      ],
+      [
+        77,
+        86,
+        2547,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-09"
+      ]
+    ],
+    [
+      [
+        22,
+        94,
+        2160,
+        "FU \u798f\u5dde\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        34,
+        93,
+        10971,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        26,
+        93,
+        18005,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        29,
+        93,
+        9331,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        35,
+        93,
+        3065,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        32,
+        92,
+        10294,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        32,
+        92,
+        66569,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        34,
+        92,
+        10957,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        31,
+        92,
+        41325,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        28,
+        92,
+        5155,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        31,
+        91,
+        3205,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        28,
+        91,
+        64758,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        30,
+        91,
+        8161,
+        "JD \u5317\u4eac\u9996\u90fd\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        33,
+        91,
+        24656,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        31,
+        91,
+        3293,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        30,
+        91,
+        2744,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        43,
+        91,
+        2839,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        39,
+        90,
+        4626,
+        "PN \u897f\u90e8\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        26,
+        90,
+        4511,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2018-10"
+      ],
+      [
+        35,
+        90,
+        7923,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-10"
+      ]
+    ],
+    [
+      [
+        28,
+        94,
+        16637,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        28,
+        92,
+        2668,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        47,
+        91,
+        10221,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        44,
+        91,
+        2883,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        45,
+        91,
+        8775,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        39,
+        91,
+        8220,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        38,
+        91,
+        10534,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        39,
+        90,
+        39657,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        45,
+        90,
+        2593,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        47,
+        90,
+        62352,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        37,
+        90,
+        3285,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        38,
+        90,
+        62981,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        45,
+        89,
+        10370,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        45,
+        89,
+        2695,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        48,
+        89,
+        3315,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        61,
+        89,
+        2588,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        36,
+        89,
+        2818,
+        "DZ \u6df1\u5733\u4e1c\u6d77\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        39,
+        89,
+        2186,
+        "QW \u9752\u5c9b\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        41,
+        88,
+        6393,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2018-11"
+      ],
+      [
+        53,
+        87,
+        17094,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-11"
+      ]
+    ],
+    [
+      [
+        33,
+        93,
+        10894,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        36,
+        93,
+        9441,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        37,
+        93,
+        2881,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        33,
+        92,
+        16124,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        29,
+        92,
+        2429,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        44,
+        91,
+        63899,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        32,
+        91,
+        41253,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        37,
+        91,
+        10925,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        37,
+        91,
+        23396,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        42,
+        91,
+        16992,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        34,
+        91,
+        64039,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        41,
+        91,
+        8824,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        39,
+        91,
+        3449,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        39,
+        90,
+        2274,
+        "FU \u798f\u5dde\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        42,
+        90,
+        2873,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        54,
+        90,
+        2568,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        48,
+        90,
+        2616,
+        "OQ \u91cd\u5e86\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        51,
+        90,
+        5169,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        43,
+        89,
+        10081,
+        "GS \u5929\u6d25\u822a\u7a7a",
+        "2018-12"
+      ],
+      [
+        33,
+        89,
+        18472,
+        "MF \u53a6\u95e8\u822a\u7a7a",
+        "2018-12"
+      ]
+    ],
+    [
+      [
+        34,
+        91,
+        11197,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        36,
+        91,
+        10167,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        34,
+        90,
+        17711,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        33,
+        90,
+        41665,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        30,
+        90,
+        2869,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        50,
+        90,
+        2490,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        37,
+        89,
+        8897,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        38,
+        89,
+        11245,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        43,
+        89,
+        69083,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        48,
+        89,
+        3112,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        38,
+        88,
+        3567,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        36,
+        88,
+        67274,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        40,
+        88,
+        17750,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        41,
+        88,
+        24150,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        42,
+        87,
+        3413,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        39,
+        87,
+        5196,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        46,
+        85,
+        2603,
+        "AQ \u4e5d\u5143\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        51,
+        85,
+        2481,
+        "QW \u9752\u5c9b\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        35,
+        85,
+        3123,
+        "NS \u6cb3\u5317\u822a\u7a7a",
+        "2019-01"
+      ],
+      [
+        42,
+        85,
+        3005,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2019-01"
+      ]
+    ],
+    [
+      [
+        40,
+        91,
+        10597,
+        "9C \u6625\u79cb\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        37,
+        89,
+        10479,
+        "FM \u4e0a\u6d77\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        50,
+        89,
+        2550,
+        "JR \u5e78\u798f\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        44,
+        89,
+        9677,
+        "HO \u4e0a\u6d77\u5409\u7965\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        38,
+        88,
+        8551,
+        "G5 \u534e\u590f\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        45,
+        88,
+        3215,
+        "GX \u5e7f\u897f\u5317\u90e8\u6e7e\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        37,
+        88,
+        16160,
+        "SC \u5c71\u4e1c\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        37,
+        87,
+        2686,
+        "DR \u745e\u4e3d\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        49,
+        87,
+        2978,
+        "TV \u897f\u85cf\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        38,
+        87,
+        37692,
+        "CA \u4e2d\u56fd\u56fd\u9645\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        51,
+        86,
+        64440,
+        "CZ \u4e2d\u56fd\u5357\u65b9\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        42,
+        86,
+        62992,
+        "MU \u4e2d\u56fd\u4e1c\u65b9\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        45,
+        86,
+        17310,
+        "3U \u56db\u5ddd\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        46,
+        85,
+        23411,
+        "HU \u6d77\u5357\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        42,
+        84,
+        5084,
+        "GJ \u6d59\u6c5f\u957f\u9f99\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        61,
+        84,
+        2481,
+        "AQ \u4e5d\u5143\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        45,
+        83,
+        4926,
+        "EU \u6210\u90fd\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        46,
+        83,
+        3392,
+        "KY \u6606\u660e\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        51,
+        82,
+        2934,
+        "BK \u5965\u51ef\u822a\u7a7a",
+        "2019-02"
+      ],
+      [
+        51,
+        82,
+        7042,
+        "8L \u4e91\u5357\u7965\u9e4f\u822a\u7a7a",
+        "2019-02"
+      ]
+    ]
+  ]
+}

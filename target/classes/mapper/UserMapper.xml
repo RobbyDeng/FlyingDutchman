@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserDao">
+    <resultMap id="userResultMap" type="User">
+        <id property="id" column="userId"/>
+        <result property="name" column="userName"/>
+        <result property="password" column="password"/>
+        <result property="roleId" column="roleId"/>
+        <result property="email" column="email"/>
+        <result property="sex" column="sex"/>
+        <result property="birthday" column="birthday"/>
+        <result property="identity" column="identity"/>
+        <result property="city" column="city"/>
+        <result property="registerTime" column="registerTime"/>
+    </resultMap>
+    <insert id="addUser" parameterType="User">
+        INSERT INTO user(userName, password, roleId, email, registerTime)
+        VALUE (#{name}, #{password}, #{roleId}, #{email}, #{registerTime})
+    </insert>
+    <update id="updateUser" parameterType="User">
+        UPDATE user
+        SET
+        <if test="password != null">
+            password = #{password},
+        </if>
+        <if test="sex != null">
+            sex = #{sex},
+        </if>
+        <if test="birthday != null">
+            birthday = #{birthday},
+        </if>
+        <if test="identity != null">
+            identity = #{identity},
+        </if>
+        <if test="city != null">
+            city = #{city},
+        </if>
+        <if test="roleId != null">
+            roleId = #{roleId},
+        </if>
+        <if test="email != null">
+            email = #{email}
+        </if>
+        WHERE userName = #{name}
+    </update>
+    <select id="queryUserByName" resultMap="userResultMap" parameterType="string">
+        SELECT *
+        FROM user
+        WHERE userName = #{name}
+    </select>
+    <select id="queryAllUser" resultMap="userResultMap">
+        SELECT * FROM user;
+    </select>
+    <select id="getNumberOfUser" resultType="int">
+        SELECT COUNT(id) FROM user
+    </select>
+    <delete id="deleteUser" parameterType="int">
+        delete from user
+        where userId = #{id}
+    </delete>
+    <delete id="deleteUserByRole" parameterType="int">
+        DELETE from user
+        where roleId = #{roleId}
+    </delete>
+    <!-- 批量删除 -->
+    <delete id="deleteUserBatch" parameterType="int[]">
+        delete from user where userId in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+    <delete id="deleteUserBatchByRole" parameterType="int[]">
+        delete from user where roleId in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+</mapper>

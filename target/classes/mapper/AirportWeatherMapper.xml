@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.AirportWeatherDao">
+    <resultMap id="airportWeatherResultMap" type="AirportWeather">
+        <id property="airCode" column="airportCode"/>
+        <result property="currTemp" column="currentTemp"/>
+        <result property="highTemp" column="highestTemp"/>
+        <result property="lowTemp" column="lowestTemp"/>
+        <result property="weatherInfo" column="weatherInfo"/>
+        <result property="windInfo" column="windInfo"/>
+    </resultMap>
+    <insert id="addAirportWeather" parameterType="AirportWeather">
+        INSERT INTO airportWeather(airportCode, currentTemp, highestTemp, lowestTemp, weatherInfo, windInfo)
+        VALUE (#{airCode}, #{currTemp}, #{highTemp}, #{lowTemp}, #{weatherInfo}, #{windInfo})
+    </insert>
+    <update id="updateAirportWeather" parameterType="AirportWeather">
+        UPDATE airportWeather
+        SET
+        <if test="currTemp != null">
+            currentTemp = #{currTemp},
+        </if>
+        <if test="highTemp != null">
+            highestTemp = #{highTemp},
+        </if>
+        <if test="lowTemp != null">
+            lowestTemp = #{lowTemp},
+        </if>
+        <if test="weatherInfo != null">
+            weatherInfo = #{weatherInfo},
+        </if>
+        <if test="windInfo != null">
+            windInfo = #{windInfo},
+        </if>
+        WHERE airportCode = #{airCode}
+    </update>
+    <select id="queryAirportWeatherById" resultType="AirportWeather" parameterType="string">
+        SELECT *
+        FROM airportWeather
+        WHERE airportCode = #{airCode}
+    </select>
+</mapper>

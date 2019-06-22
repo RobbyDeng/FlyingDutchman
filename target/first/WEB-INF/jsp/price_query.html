@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flying Dutchman航班大数据分析平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/loader-style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/js/button/ladda/ladda.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-chinese-region/bootstrap-chinese-region.css">
+
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/tag/jquery.tagsinput.css">
+    <link rel="stylesheet" href="assets/js/timepicker/bootstrap-timepicker.css">
+    <link rel="stylesheet" href="assets/js/datepicker/datepicker.css">
+    <link rel="stylesheet" href="assets/js/datepicker/clockface.css">
+
+    <link rel="stylesheet" href="assets/js/wizard/css/jquery.steps.css">
+    <link type="text/css" rel="stylesheet" href="assets/js/wizard/jquery.stepy.css">
+    <link href="assets/js/tabs/acc-wizard.min.css" rel="stylesheet">
+
+
+    <link href="assets/js/footable/css/footable.core.css?v=2-0-1" rel="stylesheet" type="text/css">
+    <link href="assets/js/footable/css/footable.standalone.css" rel="stylesheet" type="text/css">
+    <link href="assets/js/footable/css/footable-demos.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css">
+    <link rel="stylesheet" href="assets/js/dataTable/css/datatables.responsive.css">
+    <!--新添加的echarts-->
+    <script type="text/javascript" src="assets/echarts/echarts.js"></script>
+    <script type="text/javascript" src="assets/echarts/map/china.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+</head>
+
+<body>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- TOP NAVBAR -->
+<nav role="navigation" class="navbar navbar-static-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="entypo-menu"></span>
+            </button>
+            <button class="navbar-toggle toggle-menu-mobile toggle-left" type="button">
+                <span class="entypo-list-add"></span>
+            </button>
+
+
+            <div>
+                <h3><span>航班大数据分析平台</span></h3>
+            </div>
+
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <!--<ul class="nav navbar-nav">-->
+
+            <!--</ul>-->
+            <div id="nt-title-container" class="navbar-left running-text visible-lg">
+                <ul class="date-top">
+                    <li class="entypo-calendar" style="margin-right:5px"></li>
+                    <li id="Date"></li>
+
+                </ul>
+
+                <ul id="digital-clock" class="digital">
+                    <li class="entypo-clock" style="margin-right:5px"></li>
+                    <li class="hour"></li>
+                    <li>:</li>
+                    <li class="min"></li>
+                    <li>:</li>
+                    <li class="sec"></li>
+                    <li class="meridiem"></li>
+                </ul>
+                <ul id="nt-title">
+                    <li><i class="wi-day-sunny"></i>&#160;&#160;北京&#160;
+                        <b>22</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+                    <li><i class="wi-day-lightning"></i>&#160;&#160;上海&#160;
+                        <b>18</b><i class="wi-celcius"></i>&#160;; 今晚12°C
+                    </li>
+
+                    <li><i class="wi-cloud"></i>&#160;&#160;广州&#160;
+                        <b>28</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+
+                    <li><i class="wi-day-cloudy"></i>&#160;&#160;成都&#160;
+                        <b>24</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+
+                    <li><i class="wi-day-lightning"></i>&#160;&#160;天津&#160;
+                        <b>20</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+
+                </ul>
+            </div>
+
+            <ul style="margin-right:0;" class="nav navbar-nav navbar-right">
+                <li>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <img alt="" class="admin-pic img-circle" src="assets/img/info/logo.jpg">你好，二狗！ <b class="caret"></b>
+                    </a>
+                    <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
+                        <li>
+                            <a href="userinfo_edit.html">
+                                <span class="entypo-vcard"></span>&#160;&#160;账户设置</a>
+                        </li>
+
+                        <li class="divider"></li>
+                        <li>
+                            <a href="login.html">
+                                <span class="entypo-logout"></span>&#160;&#160;退出登录</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="icon-gear"></span>&#160;&#160;设置</a>
+                    <ul role="menu" class="dropdown-setting dropdown-menu">
+
+                        <li class="theme-bg">
+                            <div id="button-bg"></div>
+                            <div id="button-bg2"></div>
+                            <div id="button-bg3"></div>
+                            <div id="button-bg5"></div>
+                            <div id="button-bg6"></div>
+                            <div id="button-bg7"></div>
+                            <div id="button-bg8"></div>
+                            <div id="button-bg9"></div>
+                            <div id="button-bg10"></div>
+                            <div id="button-bg11"></div>
+                            <div id="button-bg12"></div>
+                            <div id="button-bg13"></div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hidden-xs">
+                    <a class="toggle-left" href="#">
+                        <span style="font-size:20px;" class="entypo-list-add"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- /END OF TOP NAVBAR -->
+
+<!-- SIDE MENU -->
+<div id="skin-select">
+    <div id="logo">
+        <h1>Flying Dutchman</h1>
+    </div>
+
+    <a id="toggle">
+        <span class="entypo-menu"></span>
+    </a>
+
+
+
+
+
+    <div class="search-hover">
+        <form id="demo-2">
+            <input type="search" placeholder="Search Menu..." class="id_search">
+        </form>
+    </div>
+
+
+
+
+    <div class="skin-part">
+        <div id="tree-wrap">
+            <div class="side-bar">
+                <ul class="topnav menu-left-nest">
+                    <li>
+                        <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+
+                            <span>主页</span>
+                            <i data-toggle="tooltip" class="icon-heart pull-right config-wrap"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="user_index.html" title="userinfo">
+                            <i class="icon-home"></i>
+                            <span>主页</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+
+                <!--侧边栏修改从这里开始-->
+                <ul class="topnav menu-left-nest">
+                    <li>
+                        <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+
+                            <span>普通用户</span>
+                            <i data-toggle="tooltip" class="entypo-gauge pull-right config-wrap"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="航班动态查询">
+                            <i class="icon-search"></i>
+                            <span>航班动态查询</span>
+
+                        </a>
+                        <ul>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="flight_query.html" title="flight query"><i class="entypo-flight"></i><span>航班查询</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="line_query.html" title="line query"><i class="icon-direction"></i><span>航线查询</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="price_query.html" title="price query"><i class="fontawesome-money"></i><span>票价查询</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="weather_query.html" title="weather query"><i class="wi-day-cloudy"></i><span>机场天气查询</span></a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="国内航空统计">
+                            <i class="entypo-book-open"></i>
+                            <span>国内航空统计</span>
+
+                        </a>
+                        <ul>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="airport_location.html" title="airport location"><i class="icon-location"></i><span>机场位置分布</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="airport_province.html" title="airport province"><i class="fontawesome-list-ul"></i><span>各省机场统计</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="airline.html" title="airline"><i class="icon-document"></i><span>航空航班分析</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="plane_type.html" title="plane type"><i class="icon-graph-bar"></i><span>飞机机型统计</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="个人信息管理">
+                            <i class="icon-user"></i>
+                            <span>个人信息管理</span>
+                        </a>
+                        <ul>
+                            </li>
+
+                            <li>
+                                <a class="tooltip-tip ajax-load" href="profile.html" title="userinfo">
+                                    <i class="icon-user"></i>
+                                    <span>查看个人信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip ajax-load" href="userinfo_edit.html" title="userinfo">
+                                    <i class="icon-document-edit"></i>
+                                    <span>修改个人信息</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--侧边栏修改结束-->
+
+
+
+
+                <div class="side-dash">
+
+
+                    <h3>
+                        <span>Visitors</span>
+                    </h3>
+                    <div id="g1" style="height:180px" class="gauge"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF SIDE MENU -->
+
+
+<!--  PAPER WRAP -->
+<div class="wrap-fluid">
+    <div class="container-fluid paper-wrap bevel tlbr">
+
+
+
+
+
+        <!-- CONTENT -->
+
+        <div class="content-wrap">
+            <div class="row">
+
+
+                <div class="col-sm-12">
+                    <!-- airline-->
+
+                    <div class="nest" id="Blank_PageClose">
+                        <div class="title-alt">
+                            <h6>
+                                票价查询</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#Blank_PageClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#Blank_Page_Content">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="body-nest" id="Blank_Page_Content">
+
+
+
+                            <ul id="myTab" class="nav nav-tabs">
+                                <li class="active">
+                                    <a href="#query" data-toggle="tab">
+                                        查询
+                                    </a>
+                                </li>
+                                <li><a href="#data" data-toggle="tab">统计图表</a></li>
+                            </ul>
+
+                            <div id="myTabContent" class="tab-content">
+
+                                <!--票价查询tab-->
+                                <div class="tab-pane fade in active" id="query">
+                                    <div style="height: 20px;"></div>
+
+                                            <div class="col-lg-6 row">
+                                                <label>出发城市</label>
+                                                <div class="city-picker-selector" id="city-picker-search"></div>
+                                                <br>
+                                                <label>到达城市</label>
+                                                <div class="city-picker-selector" id="city-picker-search2"></div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <label>出发日期</label>
+                                                <br>
+                                                <input type="text" class="form-control" id="dp1" value="03-16-2019">
+                                            </div>
+
+                                            <div class="col-lg-2">
+                                                <div class="row">
+                                                    <div style="height: 20px;"></div>
+                                                    <button type="button" class="btn btn-success">查询</button>
+                                                </div>
+                                            </div>
+                                    <div style="height: 120px"></div>
+                                    <br>
+                                    <br>
+                                    <table class="table-striped footable-res footable metro-blue" data-page-size="10">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                航空公司
+                                            </th>
+                                            <th>
+                                                航班号
+                                            </th>
+                                            <th>
+                                                机型
+                                            </th>
+                                            <th>
+                                                起飞机场
+                                            </th>
+                                            <th>
+                                                降落机场
+                                            </th>
+                                            <th>
+                                                起飞时间
+                                            </th>
+                                            <th>
+                                                降落时间
+                                            </th>
+                                            <th>
+                                                飞行时间
+                                            </th>
+                                            <th>
+                                                舱位
+                                            </th>
+                                            <th>
+                                                票价
+                                            </th>
+                                            <th>
+                                                折扣率
+                                            </th>
+                                            <th>
+                                                准点率
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <!--这里进行了修改-->
+                                        <tr>
+                                            <td><span id="airline_icon"></span>中国国航</td>
+                                            <td id="flight_id">CA1427</td>
+                                            <td>波音737</td>
+                                            <td>天津滨海</td>
+                                            <td>成都双流</td>
+                                            <td>07：20</td>
+                                            <td>10：30</td>
+                                            <td>3小时10分钟</td>
+                                            <td>经济舱</td>
+                                            <td style="color: #90111A"><strong>¥750</strong></td>
+                                            <td>75折</td>
+                                            <td><span style="border-bottom:dashed #000000 1px;">80%</span></td>
+                                        </tr>
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                            <td colspan="12">
+                                                <div class="pagination pagination-centered"></div>
+                                            </td>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
+
+                                </div>
+
+                                <!--不同机票统计信息-->
+                                <div class="tab-pane fade" id="data">
+                                    <div class="content-wrap">
+                                        <div class="row">
+                                            <div class="col-lg-7">
+                                                <div id="site" class="body-nest">
+
+                                                    <div id="main" style="height: 550px;width: 600px;"></div>
+                                                    <script>
+                                                        function loadColumn() {
+                                                            var myChart = echarts.init(document.getElementById('main'));
+                                                            myChart.setOption({
+                                                                title:
+                                                                    {text:'票价准点率柱状折线统计图'},
+                                                                tooltip: {
+                                                                    trigger: 'axis',
+                                                                    axisPointer: {
+                                                                        type: 'cross',
+                                                                        crossStyle: {
+                                                                            color: '#999'
+                                                                        }
+                                                                    }
+                                                                },
+                                                                toolbox: {
+                                                                    feature: {
+                                                                        dataView: {show: true, readOnly: false},
+                                                                        magicType: {show: true, type: ['line', 'bar']},
+                                                                        restore: {show: true},
+                                                                        saveAsImage: {show: true}
+                                                                    }
+                                                                },
+                                                                legend: {
+                                                                    data:['票价','准点率']
+                                                                },
+                                                                xAxis: [
+                                                                    {
+                                                                        type: 'category',
+                                                                        data: [],
+                                                                        axisPointer: {
+                                                                            type: 'shadow'
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                yAxis: [
+                                                                    {
+                                                                        type: 'value',
+                                                                        name: '票价',
+                                                                        // min: 0,
+                                                                        // max:3000,
+                                                                        // interval: max/10,
+                                                                        axisLabel: {
+                                                                            formatter: '{value} 元'
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        type: 'value',
+                                                                        name: '准点率',
+                                                                        min: 0,
+                                                                        max: 100,
+                                                                        interval: 10,
+                                                                        axisLabel: {
+                                                                            formatter: '{value} %'
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                series: [
+                                                                    {
+                                                                        name:'票价',
+                                                                        type:'bar',
+                                                                        data:[],
+                                                                        color:'#71d9ec'
+                                                                    },
+                                                                    {
+                                                                        name:'准点率',
+                                                                        type:'line',
+                                                                        yAxisIndex: 1,
+                                                                        data:[],
+                                                                        color:'#438ce9'
+                                                                    }
+                                                                ]
+
+                                                            });
+
+                                                            myChart.showLoading();
+                                                            var names=[];
+                                                            var nums=[];
+                                                            var onTime=[];
+                                                            var maxPrice;
+                                                            var max_y;
+                                                            $.ajax({
+                                                                type:'get',
+                                                                url:'assets/price.json',
+                                                                dataType:"json",
+                                                                success:function(result){
+                                                                    $.each(result.list,function(index,item){
+                                                                        names.push(item.flightCode);
+                                                                        nums.push(parseInt(item.currentPrice));
+                                                                        onTime.push(item.onTime.substring(0,item.onTime.length-1));
+                                                                    });
+
+                                                                    myChart.hideLoading();
+                                                                    maxPrice = Math.max.apply(null,nums);
+                                                                    max_y = (parseInt(maxPrice/100)+1)*100;
+                                                                    console.log(maxPrice);
+                                                                    myChart.setOption({
+                                                                        xAxis:{
+                                                                            data:names
+                                                                        },
+                                                                        yAxis: [
+                                                                            {
+                                                                                type: 'value',
+                                                                                name: '票价',
+                                                                                min: 0,
+                                                                                max:max_y,
+                                                                                interval: max_y/10,
+                                                                                axisLabel: {
+                                                                                    formatter: '{value} 元'
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                type: 'value',
+                                                                                name: '准点率',
+                                                                                min: 0,
+                                                                                max: 100,
+                                                                                interval: 10,
+                                                                                axisLabel: {
+                                                                                    formatter: '{value} %'
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        dataZoom: [
+                                                                            {
+                                                                                id: 'dataZoomX',
+                                                                                type: 'slider',
+                                                                                xAxisIndex: [0],
+                                                                                start: 25,
+                                                                                end: 75,
+                                                                                filterMode: 'filter'
+                                                                            },
+                                                                            {
+                                                                                type: 'inside',
+                                                                                start: 25,
+                                                                                end: 75
+                                                                            },
+                                                                            {
+                                                                                id: 'dataZoomY',
+                                                                                type: 'slider',
+                                                                                yAxisIndex: [0],
+                                                                                filterMode: 'empty'
+                                                                            }
+                                                                        ],
+                                                                        series:[{
+                                                                            name:'票价',
+                                                                            data:nums
+                                                                        },
+                                                                            {
+                                                                                name:'准点率',
+                                                                                yAxisIndex: 1,
+                                                                                type:'line',
+                                                                                data:onTime
+                                                                            }]
+
+                                                                    });
+                                                                },
+                                                                error:function (errorMsg) {
+                                                                    alert("图表请求数据失败！");
+                                                                    myChart.hideLoading();
+                                                                }
+                                                            });
+
+                                                        }
+                                                        loadColumn();
+                                                    </script>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div id="RealTime" class="body-nest">
+                                                    <div id="container" style="height: 400px;width: 400px;"></div>
+                                                    <script>
+                                                        function loadPie(){
+                                                            var Chart = echarts.init(document.getElementById('container'));
+                                                            Chart.setOption({
+                                                                title : {
+                                                                    text: '准点率分布',
+                                                                    x:'center'
+                                                                },
+                                                                tooltip : {
+                                                                    trigger: 'item',
+                                                                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                                                                },
+                                                                legend: {
+                                                                    x : 'center',
+                                                                    y : 'bottom',
+                                                                    data:["50-60%","60-70%","70-80%","80-90%","90-100%"]
+                                                                },
+                                                                toolbox: {
+                                                                    show : true,
+                                                                    feature : {
+                                                                        mark : {show: true},
+                                                                        dataView : {show: true, readOnly: false},
+                                                                        magicType : {
+                                                                            show: true,
+                                                                            type: ['pie', 'funnel']
+                                                                        },
+                                                                        restore : {show: true},
+                                                                        saveAsImage : {show: true}
+                                                                    }
+                                                                },
+                                                                calculable : true,
+                                                                series : [
+                                                                    {
+                                                                        name:'准点率',
+                                                                        type:'pie',
+                                                                        radius : [20, 110],
+                                                                        center : ['50%', '60%'],
+                                                                        roseType : 'radius',
+                                                                        label: {
+                                                                            normal: {
+                                                                                show: false
+                                                                            },
+                                                                            emphasis: {
+                                                                                show: true
+                                                                            }
+                                                                        },
+                                                                        lableLine: {
+                                                                            normal: {
+                                                                                show: false
+                                                                            },
+                                                                            emphasis: {
+                                                                                show: true
+                                                                            }
+                                                                        },
+                                                                        data:[]
+                                                                    }]
+                                                            });
+                                                            Chart.showLoading();
+                                                            var counts=[];
+                                                            var nums=[];
+                                                            var names=["50-60%","60-70%","70-80%","80-90%","90-100%"];
+                                                            counts[0]=0;//50-60
+                                                            counts[1]=0;//60-70
+                                                            counts[2]=0;//70-80
+                                                            counts[3]=0;//80-90
+                                                            counts[4]=0;//90-100
+                                                            $.ajax({
+                                                                type:'get',
+                                                                url:'assets/price.json',
+                                                                dataType:'json',
+                                                                success:function (result) {
+                                                                    $.each(result.list,function (index,item) {
+                                                                        nums.push(item.onTime.substring(0,item.onTime.length-1));
+                                                                    });
+                                                                    for(var i=0;i<nums.length;i++){
+                                                                        if(nums[i]<60 && nums[i]>=50){
+                                                                            counts[0]++;
+                                                                        }
+                                                                        else if(nums[i]<70 && nums[i]>=60){
+                                                                            counts[1]++;
+                                                                        }
+                                                                        else if(nums[i]<80 && nums[i]>=70){
+                                                                            counts[2]++;
+                                                                        }
+                                                                        else if(nums[i]<90 && nums[i]>=80){
+                                                                            counts[3]++;
+                                                                        }
+                                                                        else if(nums[i]<100 && nums[i]>=90){
+                                                                            counts[4]++;
+                                                                        }
+                                                                    }
+
+                                                                    // console.log(nums);
+                                                                    // console.log(names[0]);
+                                                                    Chart.hideLoading();
+                                                                    Chart.setOption({
+                                                                        legend:{
+                                                                            data:names
+                                                                        },
+                                                                        series:[{
+                                                                            data:[
+                                                                                {value:counts[0], name:names[0]},
+                                                                                {value:counts[1], name:names[1]},
+                                                                                {value:counts[2], name:names[2]},
+                                                                                {value:counts[3], name:names[3]},
+                                                                                {value:counts[4], name:names[4]}
+                                                                            ],
+                                                                        }]
+                                                                    });
+
+                                                                },
+                                                                error:function (errorMsg) {
+                                                                    alert("图表请求数据失败！");
+                                                                    Chart.hideLoading();
+                                                                }
+
+                                                            });
+                                                        }
+                                                        loadPie();
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF BLANK PAGE -->
+
+
+            </div>
+
+
+
+            <!-- /END OF CONTENT -->
+
+
+
+            <!-- FOOTER -->
+            <div class="footer-space"></div>
+            <div id="footer">
+                <div class="devider-footer-left"></div>
+                <div class="time">
+                    <p id="spanDate">
+                    <p id="clock">
+                </div>
+                <div class="copyright">Make with Love
+                    <span class="entypo-heart"></span>二狗 All Rights Reserved</div>
+                <div class="devider-footer"></div>
+
+            </div>
+            <!-- / END OF FOOTER -->
+
+
+        </div>
+
+
+    </div>
+    <!--  END OF PAPER WRAP -->
+
+    <!-- RIGHT SLIDER CONTENT -->
+    <div class="sb-slidebar sb-right">
+        <div class="right-wrapper">
+            <div class="row">
+                <h3>
+                    <span><i class="entypo-gauge"></i>&nbsp;&nbsp;航空公司</span>
+                </h3>
+                <div class="col-sm-12">
+                    <div>
+                        <div class="col-lg-12">
+                            <label class="form-label"><a href="http://www.ch.com/">春秋航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.joy-air.com/">幸福航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.juneyaoair.com/">吉祥航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.sda.cn/">山东航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="https://www.chinaexpressair.com/">华夏航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.sichuanair.com/">四川航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="https://www.rlair.net/">瑞丽航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.ceair.com/">中国东方航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.airchina.com.cn/">中国国际航空</a></label>
+                            <br>
+                            <label class="form-label"><a href="http://www.csair.com/cn/">中国南方航空</a></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top:0;" class="right-wrapper">
+            <div class="row">
+                <h3>
+                    <span><i class="icon-user-group"></i>&nbsp;&nbsp;制作人员</span>
+                </h3>
+                <div class="col-sm-12">
+                    <ul class="chat">
+                        <li>
+                            <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="assets/img/info/Crab.PNG">
+                                    </span><b>魏建安</b>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="assets/img/info/Spongebob.PNG">
+                                    </span><b>花语</b>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="assets/img/info/patrick.png">
+                                    </span><b>王书为</b>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="assets/img/info/squalid.png">
+                                    </span><b>张冕</b>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="assets/img/info/Gray.png">
+                                    </span><b>邓怡然</b>
+                            </a>
+                        </li>
+                        <br>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END OF RIGHT SLIDER CONTENT-->
+
+
+    <!-- MAIN EFFECT -->
+    <script type="text/javascript" src="assets/js/preloader.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/load.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <script type="text/javascript" src="assets/js/colorPicker/bootstrap-colorpicker.min.js"></script>
+    <script type="text/javascript" src="assets/js/inputMask/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="assets/js/switch/bootstrap-switch.js"></script>
+    <script type="text/javascript" src="assets/js/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/idealform/jquery.idealforms.js"></script>
+
+    <script type="text/javascript" src="assets/js/timepicker/bootstrap-timepicker.js"></script>
+    <script type="text/javascript" src="assets/js/datepicker/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="assets/js/datepicker/clockface.js"></script>
+    <script type="text/javascript" src="assets/js/datepicker/bootstrap-datetimepicker.js"></script>
+
+    <script src="assets/js/wizard/lib/jquery.cookie-1.3.1.js"></script>
+    <script src="assets/js/wizard/build/jquery.steps.js"></script>
+    <script type="text/javascript" src="assets/js/wizard/jquery.stepy.js"></script>
+
+    <!-- /MAIN EFFECT -->
+    <!-- GAGE -->
+    <script type="text/javascript" src="assets/js/toggle_close.js"></script>
+    <script src="assets/js/footable/js/footable.js?v=2-0-1" type="text/javascript"></script>
+    <script src="assets/js/footable/js/footable.sort.js?v=2-0-1" type="text/javascript"></script>
+    <script src="assets/js/footable/js/footable.filter.js?v=2-0-1" type="text/javascript"></script>
+    <script src="assets/js/footable/js/footable.paginate.js?v=2-0-1" type="text/javascript"></script>
+    <script src="assets/js/footable/js/footable.paginate.js?v=2-0-1" type="text/javascript"></script>
+
+    <script type="text/javascript" src="lib/bootstrap-chinese-region/bootstrap-chinese-region.js"></script>
+    <script type="text/javascript">
+        $.getJSON('lib/bootstrap-chinese-region/test.json',function(data){
+            console.log(data);
+            for (var i = 0; i < data.length; i++) {
+                var area = {id:data[i].id,name:data[i].cname,level:data[i].level,parentId:data[i].upid};
+                data[i] = area;
+            }
+
+            $('.bs-chinese-region').chineseRegion('source',data);
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('#datetimepicker1').datetimepicker({
+            language: 'pt-BR'
+        });
+        $('#dp1').datepicker()
+
+
+        $('#toggle-btn').click(function(e) {
+            e.stopPropagation();
+            $('#t2').clockface('toggle');
+        });
+    </script>
+
+    <script>
+        $(function() {
+
+            $("#wizard-tab").steps({
+                headerTag: "h2",
+                bodyTag: "section",
+                transitionEffect: "none",
+                enableFinishButton: false,
+                enablePagination: false,
+                enableAllSteps: true,
+                titleTemplate: "#title#",
+                cssClass: "tabcontrol"
+            });
+
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(function() {
+            $('.footable-res').footable();
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $('#footable-res2').footable().bind('footable_filtering', function(e) {
+                var selected = $('.filter-status').find(':selected').text();
+                if (selected && selected.length > 0) {
+                    e.filter += (e.filter && e.filter.length > 0) ? ' ' + selected : selected;
+                    e.clear = !e.filter;
+                }
+            });
+
+            $('.clear-filter').click(function(e) {
+                e.preventDefault();
+                $('.filter-status').val('');
+                $('table.demo').trigger('footable_clear_filter');
+            });
+
+            $('.filter-status').change(function(e) {
+                e.preventDefault();
+                $('table.demo').trigger('footable_filter', {
+                    filter: $('#filter').val()
+                });
+            });
+
+            $('.filter-api').click(function(e) {
+                e.preventDefault();
+
+                //get the footable filter object
+                var footableFilter = $('table').data('footable-filter');
+
+                alert('about to filter table by "tech"');
+                //filter by 'tech'
+                footableFilter.filter('tech');
+
+                //clear the filter
+                if (confirm('clear filter now?')) {
+                    footableFilter.clearFilter();
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript" src="https://lquan529.github.io/cityPicker/js/citydata.min.js"></script>
+    <script type="text/javascript" src="assets/js/cityPicker-2.0.3.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            // 模拟城市-联动/搜索/键盘操作
+            var selector3 = $('#city-picker-search').cityPicker({
+                dataJson: cityData,
+                renderMode: true,
+                search: true,
+                autoSelected: true,
+                keyboard: true,
+                level: 2,
+                onChoiceEnd: function() {
+                    console.log(this.values)
+                }
+            });
+            var selector4 = $('#city-picker-search2').cityPicker({
+                dataJson: cityData,
+                renderMode: true,
+                search: true,
+                autoSelected: true,
+                keyboard: true,
+                level: 2,
+                onChoiceEnd: function() {
+                    console.log(this.values)
+                }
+            });
+
+        });
+    </script>
+    <!--添加航空公司logo-->
+    <script>
+        var flight_id=document.getElementById('flight_id');
+        var flight_code = flight_id.innerHTML.substring(0,2);
+        $('#airline_icon').html('<img src="assets/ico/airlineIcon/'+flight_code + '.png">');
+        // alert('<img src="assets/ico/airlineIcon/'+flight_code + '.png">');
+    </script>
+
+</div></body>
+
+</html>

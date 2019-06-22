@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.DataItemDao">
+    <resultMap id="dataItemResultMap" type="DataItem">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="dataSourceId" column="dataSourceId"/>
+        <result property="fieldList" column="fieldList"/>
+        <result property="module" column="module"/>
+    </resultMap>
+    <insert id="addDataItem" parameterType="DataItem">
+        INSERT INTO dataItem(name, dataSourceId, fieldList, module)
+        VALUE (#{name}, #{dataSourceId}, #{fieldList}, #{module})
+    </insert>
+    <select id="getAllDataItem" resultType="DataItem">
+        SELECT *
+        FROM dataItem
+    </select>
+    <delete id="deleteDataItemById" parameterType="int">
+        DELETE FROM dataItem WHERE id = #{id}
+    </delete>
+    <update id="updateDataItem" parameterType="DataItem">
+        UPDATE dataItem SET name = #{name}, dataSourceId = #{dataSourceId}, fieldList = #{fieldList}, module = #{module}
+        WHERE id = #{id}
+    </update>
+    <select id="queryDataItemByName" resultType="DataItem">
+        SELECT * FROM dataItem
+        WHERE name = #{name}
+    </select>
+    <select id="queryDataItemByModule" resultType="DataItem">
+        SELECT * FROM dataItem
+        WHERE module = #{module};
+    </select>
+
+    <!-- 批量删除 -->
+    <delete id="deleteDataItemBatch" parameterType="int[]">
+        delete from dataItem where id in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+    <delete id="deleteDataItemBatchByDataSource" parameterType="int[]">
+        delete from dataItem where dataSourceId in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+    <delete id="deleteDataItemBatchByDataType" parameterType="int[]">
+        delete from dataItem where dataSourceId in (select id from dataSource where dataTypeId in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+        )
+    </delete>
+</mapper>

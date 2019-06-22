@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flying Dutchman航班大数据分析平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/loader-style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/js/button/ladda/ladda.min.css">
+
+    <script type="text/javascript" src="assets/echarts/echarts.js"></script>
+    <script type="text/javascript" src="assets/echarts/map/china.js"></script>
+    <script src="assets/js/macarons.js"></script>
+
+    <link href="//a.amap.com/Loca/static/manual/example/style/demo.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+</head>
+
+<body>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- TOP NAVBAR -->
+<nav role="navigation" class="navbar navbar-static-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="entypo-menu"></span>
+            </button>
+            <button class="navbar-toggle toggle-menu-mobile toggle-left" type="button">
+                <span class="entypo-list-add"></span>
+            </button>
+
+
+            <div>
+                <h3><span>航班大数据分析平台</span></h3>
+            </div>
+
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+
+            </ul>
+            <div id="nt-title-container" class="navbar-left running-text visible-lg">
+                <ul class="date-top">
+                    <li class="entypo-calendar" style="margin-right:5px"></li>
+                    <li id="Date"></li>
+
+                </ul>
+
+                <ul id="digital-clock" class="digital">
+                    <li class="entypo-clock" style="margin-right:5px"></li>
+                    <li class="hour"></li>
+                    <li>:</li>
+                    <li class="min"></li>
+                    <li>:</li>
+                    <li class="sec"></li>
+                    <li class="meridiem"></li>
+                </ul>
+                <ul id="nt-title">
+                    <li><i class="wi-day-sunny"></i>&#160;&#160;北京&#160;
+                        <b>22</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+                    <li><i class="wi-day-lightning"></i>&#160;&#160;上海&#160;
+                        <b>18</b><i class="wi-celcius"></i>&#160;; 今晚12°C
+                    </li>
+
+                    <li><i class="wi-cloud"></i>&#160;&#160;广州&#160;
+                        <b>28</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+
+                    <li><i class="wi-day-cloudy"></i>&#160;&#160;成都&#160;
+                        <b>24</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+
+                    <li><i class="wi-day-lightning"></i>&#160;&#160;天津&#160;
+                        <b>20</b><i class="wi-celcius"></i>&#160;; 15km/h
+                    </li>
+
+                </ul>
+            </div>
+
+            <ul style="margin-right:0;" class="nav navbar-nav navbar-right">
+                <li>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <img alt="" class="admin-pic img-circle" src="assets/img/info/logo.jpg">你好，二狗！ <b class="caret"></b>
+                    </a>
+                    <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
+                        <li>
+                            <a href="userinfo_edit.html">
+                                <span class="entypo-vcard"></span>&#160;&#160;账户设置</a>
+                        </li>
+
+                        <li class="divider"></li>
+                        <li>
+                            <a href="login.html">
+                                <span class="entypo-logout"></span>&#160;&#160;退出登录</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="icon-gear"></span>&#160;&#160;设置</a>
+                    <ul role="menu" class="dropdown-setting dropdown-menu">
+
+                        <li class="theme-bg">
+                            <div id="button-bg"></div>
+                            <div id="button-bg2"></div>
+                            <div id="button-bg3"></div>
+                            <div id="button-bg5"></div>
+                            <div id="button-bg6"></div>
+                            <div id="button-bg7"></div>
+                            <div id="button-bg8"></div>
+                            <div id="button-bg9"></div>
+                            <div id="button-bg10"></div>
+                            <div id="button-bg11"></div>
+                            <div id="button-bg12"></div>
+                            <div id="button-bg13"></div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hidden-xs">
+                    <a class="toggle-left" href="#">
+                        <span style="font-size:20px;" class="entypo-list-add"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- /END OF TOP NAVBAR -->
+
+<!-- SIDE MENU -->
+<div id="skin-select">
+    <div id="logo">
+        <h1>Flying Dutchman</h1>
+    </div>
+
+    <a id="toggle">
+        <span class="entypo-menu"></span>
+    </a>
+
+
+
+
+
+    <div class="search-hover">
+        <form id="demo-2">
+            <input type="search" placeholder="Search Menu..." class="id_search">
+        </form>
+    </div>
+
+
+
+
+    <div class="skin-part">
+        <div id="tree-wrap">
+            <div class="side-bar">
+                <ul class="topnav menu-left-nest">
+                    <li>
+                        <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+
+                            <span>主页</span>
+                            <i data-toggle="tooltip" class="icon-heart pull-right config-wrap"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="user_index.html" title="userinfo">
+                            <i class="icon-home"></i>
+                            <span>主页</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+
+                <!--侧边栏修改从这里开始-->
+                <ul class="topnav menu-left-nest">
+                    <li>
+                        <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+
+                            <span>普通用户</span>
+                            <i data-toggle="tooltip" class="entypo-gauge pull-right config-wrap"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="航班动态查询">
+                            <i class="icon-search"></i>
+                            <span>航班动态查询</span>
+
+                        </a>
+                        <ul>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="flight_query.html" title="flight query"><i class="entypo-flight"></i><span>航班查询</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="line_query.html" title="line query"><i class="icon-direction"></i><span>航线查询</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="price_query.html" title="price query"><i class="fontawesome-money"></i><span>票价查询</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="weather_query.html" title="weather query"><i class="wi-day-cloudy"></i><span>机场天气查询</span></a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="国内航空统计">
+                            <i class="entypo-book-open"></i>
+                            <span>国内航空统计</span>
+
+                        </a>
+                        <ul>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="airport_location.html" title="airport location"><i class="icon-location"></i><span>机场位置分布</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="airport_province.html" title="airport province"><i class="fontawesome-list-ul"></i><span>各省机场统计</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="airline.html" title="airline"><i class="icon-document"></i><span>航空航班分析</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="plane_type.html" title="plane type"><i class="icon-graph-bar"></i><span>飞机机型统计</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="个人信息管理">
+                            <i class="icon-user"></i>
+                            <span>个人信息管理</span>
+                        </a>
+                        <ul>
+                            </li>
+
+                            <li>
+                                <a class="tooltip-tip ajax-load" href="profile.html" title="userinfo">
+                                    <i class="icon-user"></i>
+                                    <span>查看个人信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip ajax-load" href="userinfo_edit.html" title="userinfo">
+                                    <i class="icon-document-edit"></i>
+                                    <span>修改个人信息</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--侧边栏修改结束-->
+
+
+                <div class="side-dash">
+
+
+                    <h3>
+                        <span>Visitors</span>
+                    </h3>
+                    <div id="g1" style="height:180px" class="gauge"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF SIDE MENU -->
+
+
+<!--  PAPER WRAP -->
+<div class="wrap-fluid">
+    <div class="container-fluid paper-wrap bevel tlbr">
+
+
+        <!-- CONTENT -->
+
+        <div class="content-wrap">
+            <div class="row">
+
+
+                <div class="col-sm-12">
+                    <!-- airline-->
+
+                    <div class="nest" id="Blank_Close">
+                        <div class="title-alt">
+                            <h6>
+                                机场天气查询</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#Blank_Close">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#Blank_Page_Content">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="body-nest" id="Blank_Page_Content">
+
+                            <div class="content-wrap">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <!-- BLANK PAGE-->
+                                        <div class="nest" id="Blank_PageClose">
+
+                                            <div class="body-nest" id="Blank_Content">
+                                                <div id="container" class="container" style="height: 550px;width: 700px;"></div>
+                                                <script src="//webapi.amap.com/loca?v=1.2.0&key=fa00921c9217af1bdf6fb117e75b77e2"></script>
+                                                <script src="//a.amap.com/Loca/static/manual/example/script/demo.js"></script>
+                                                <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.13&key=fa00921c9217af1bdf6fb117e75b77e2"></script>
+                                                <script src="assets/js/airport_location.js"></script>
+                                                <script>
+                                                    var map = Loca.create('container', {
+                                                        mapStyle: 'amap://styles/normal',
+                                                        zoom: 4,
+                                                        center: [107.4976, 32.1697]
+                                                    });
+
+                                                    var layer = Loca.visualLayer({
+                                                        eventSupport: true,    // selectStyle 配置需要开启 eventSupport: true
+                                                        container: map,
+                                                        type: 'point',
+                                                        shape: 'circle'
+                                                    });
+
+                                                    //加载天气查询插件
+                                                    AMap.plugin('AMap.Weather', function() {
+                                                        layer.on('mouseenter', function (ev) {
+                                                            // 事件类型
+                                                            var type = ev.type;
+                                                            // 当前元素的原始数据
+                                                            var rawData = ev.rawData;
+                                                            // 原始鼠标事件
+                                                            var originalEvent = ev.originalEvent;
+                                                            //创建天气查询实例
+                                                            var weather = new AMap.Weather();
+
+                                                            //执行实时天气信息查询
+                                                            weather.getLive(rawData.city, function(err, data) {
+                                                                openInfoWin(map.getMap(), originalEvent, {
+                                                                    '名称': rawData.name,
+                                                                    '位置': rawData.value,
+                                                                    '城市': rawData.city,
+                                                                    '天气状况':data.weather,
+                                                                    '实时气温':data.temperature,
+                                                                    '相对湿度':data.humidity,
+                                                                    '发布时间':data.reportTime
+                                                                });
+                                                            });
+                                                        });
+
+                                                    });
+
+                                                    layer.on('mouseleave', function (ev) {
+                                                        closeInfoWin();
+                                                    });
+
+                                                    layer.setData(districts, {
+                                                        lnglat: 'value'
+                                                    });
+
+                                                    layer.setOptions({
+                                                        style: {
+                                                            radius: 8,
+                                                            color: '#4fc2ff',
+                                                            borderColor: '#ffffff',
+                                                            borderWidth: 1.5,
+                                                            opacity: 0.8
+                                                        },
+                                                        selectStyle: {
+                                                            radius: 14,
+                                                            color: '#ffe30a'
+                                                        }
+                                                    });
+
+                                                    layer.render();
+
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div id="RealTimeClose" class="nest">
+                                            <div id="RealTime" class="body-nest">
+                                                <div style="height: 550px;width: 300px;">
+                                                    <div class="well-media">
+
+
+                                                        <div class="vendor">
+                                                            <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+                                                                <ol class="carousel-indicators">
+                                                                    <li class="" data-slide-to="0" data-target="#carousel-example-generic"></li>
+                                                                    <li data-slide-to="1" data-target="#carousel-example-generic" class="active"></li>
+                                                                </ol>
+
+                                                                <a data-slide="prev" href="#carousel-example-generic" class="left carousel-control">
+                                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                </a>
+                                                                <a data-slide="next" href="#carousel-example-generic" class="right carousel-control">
+                                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-8" id="weather_search">
+                                                            <input id='search_tab' type="text" class="form-control" placeholder="机场名称或三字码">
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <button id='weather_info_button' type="button" class="btn btn-success" data-toggle="modal" data-target="#weather_info">查询</button>
+                                                        </div>
+                                                        <script>
+                                                            $('#weather_info_button').click(function () {
+                                                                let input = $('#search_tab').val();
+                                                                let inputdata = {};
+                                                                inputdata['codeOrName'] = input;
+                                                                $.ajax({
+                                                                    type: 'POST',
+                                                                    url: 'http://192.168.43.156:7000/api/queryWeather',
+                                                                    data: JSON.stringify(inputdata),
+                                                                    contentType: 'application/x-www-form-urlencoded; charset=utf-8',
+                                                                    success: function (data) {
+                                                                        let weatherInfo = data;
+                                                                        $("#airport_name").html(weatherInfo['airportName']);
+                                                                        $("#airport_code").html(weatherInfo['aircode']);
+                                                                        $("#now_temp").html(weatherInfo['currTemp']);
+                                                                        $("#high_temp").html(weatherInfo['highTemp']);
+                                                                        $("#low_temp").html(weatherInfo['lowTemp']);
+                                                                        $("#sky_info").html(weatherInfo['weatherInfo']);
+                                                                        $("#windinfo").html(weatherInfo['windInfo']);
+                                                                    }
+                                                                });
+
+                                                            })
+                                                        </script>
+                                                        <br>
+                                                        <br>
+                                                        <div class="video-text" id="weather_info">
+                                                            <h2 id="airport_name"></h2>
+                                                            <div><strong>机场代码:</strong><span id="airport_code"></span></div>
+                                                            <div><strong>实时温度:</strong><span id="now_temp"></span></div>
+                                                            <div><strong>最高温度:</strong><span id="high_temp"></span></div>
+                                                            <div><strong>最低温度:</strong><span id="low_temp"></span></div>
+                                                            <div><strong>天气状况:</strong><span id="sky_info"></span></div>
+                                                            <div><strong>风力信息:</strong><span id="windinfo"></span></div>
+                                                        </div>
+
+                                                        <div class="tag-nest">
+                                                            <a href="http://www.weather.com.cn/">中国气象网</a>
+                                                        </div>
+
+                                                        <div class="audio-category-bg">
+                                                            <h3>机场天气情况</h3>
+                                                            <a class="link-media pull-right" href="#">
+                                                                <span class="wi-day-cloudy"></span>
+                                                            </a>
+                                                            <div class="triangle-white"></div>
+                                                            <div class="triangle-audio-right"></div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <!-- END OF BLANK PAGE -->
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF BLANK PAGE -->
+
+
+            </div>
+
+
+
+            <!-- /END OF CONTENT -->
+
+
+
+            <!-- FOOTER -->
+            <div class="footer-space"></div>
+            <div id="footer">
+                <div class="devider-footer-left"></div>
+                <div class="time">
+                    <p id="spanDate">
+                    <p id="clock">
+                </div>
+                <div class="copyright">Make with Love
+                    <span class="entypo-heart"></span>二狗 All Rights Reserved</div>
+                <div class="devider-footer"></div>
+
+            </div>
+            <!-- / END OF FOOTER -->
+
+
+        </div>
+
+
+
+
+        <!-- /END OF CONTENT -->
+
+
+
+    </div>
+</div>
+<!--  END OF PAPER WRAP -->
+
+<!-- RIGHT SLIDER CONTENT -->
+<div class="sb-slidebar sb-right">
+    <div class="right-wrapper">
+        <div class="row">
+            <h3>
+                <span><i class="entypo-gauge"></i>&nbsp;&nbsp;MAIN WIDGET</span>
+            </h3>
+            <div class="col-sm-12">
+
+                <div class="widget-knob">
+                            <span class="chart" style="position:relative" data-percent="86">
+                                <span class="percent"></span>
+                            </span>
+                </div>
+                <div class="widget-def">
+                    <b>Distance traveled</b>
+                    <br>
+                    <i>86% to the check point</i>
+                </div>
+
+                <div class="widget-knob">
+                            <span class="speed-car" style="position:relative" data-percent="60">
+                                <span class="percent2"></span>
+                            </span>
+                </div>
+                <div class="widget-def">
+                    <b>The average speed</b>
+                    <br>
+                    <i>30KM/h avarage speed</i>
+                </div>
+
+
+                <div class="widget-knob">
+                            <span class="overall" style="position:relative" data-percent="25">
+                                <span class="percent3"></span>
+                            </span>
+                </div>
+                <div class="widget-def">
+                    <b>Overall result</b>
+                    <br>
+                    <i>30KM/h avarage Result</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top:0;" class="right-wrapper">
+        <div class="row">
+            <h3>
+                <span><i class="entypo-chat"></i>&nbsp;&nbsp;CHAT</span>
+            </h3>
+            <div class="col-sm-12">
+                <span class="label label-warning label-chat">Online</span>
+                <ul class="chat">
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                    </span><b>Dave Junior</b>
+                            <br><i>Last seen : 08:00 PM</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                    </span><b>Kenneth Lucas</b>
+                            <br><i>Last seen : 07:21 PM</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                    </span><b>Heidi Perez</b>
+                            <br><i>Last seen : 05:43 PM</i>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+                <span class="label label-chat">Offline</span>
+                <ul class="chat">
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                    </span><b>Dave Junior</b>
+                            <br><i>Last seen : 08:00 PM</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                    </span><b>Kenneth Lucas</b>
+                            <br><i>Last seen : 07:21 PM</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                    </span><b>Heidi Perez</b>
+                            <br><i>Last seen : 05:43 PM</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                    </span><b>Kenneth Lucas</b>
+                            <br><i>Last seen : 07:21 PM</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                    <span>
+                                        <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                    </span><b>Heidi Perez</b>
+                            <br><i>Last seen : 05:43 PM</i>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF RIGHT SLIDER CONTENT-->
+
+
+<!-- MAIN EFFECT -->
+<script type="text/javascript" src="assets/js/preloader.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/load.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+<script src="assets/js/flatvideo/jquery.fitvids.js"></script>
+
+
+<script>
+    // Basic FitVids Test
+    $(".well-media").fitVids();
+    $(".vendor").fitVids();
+    // Custom selector and No-Double-Wrapping Prevention Test
+    $(".well-media").fitVids({
+        customSelector: "iframe[src^='http://socialcam.com']"
+    });
+</script>
+
+
+
+
+</body>
+
+</html>

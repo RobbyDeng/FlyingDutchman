@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.DataTypeDao">
+    <resultMap id="dataTypeResultMap" type="DataType">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="fieldList" column="fieldList"/>
+    </resultMap>
+    <insert id="addDataType" parameterType="DataType">
+        INSERT INTO dataType(name, fieldList)
+        VALUE (#{name}, #{fieldList})
+    </insert>
+    <select id="getAllDataType" resultType="DataType">
+        SELECT *
+        FROM dataType
+    </select>
+    <delete id="deleteDataTypeById" parameterType="int">
+        DELETE FROM dataType WHERE id = #{id}
+    </delete>
+   <update id="updateDataType" parameterType="DataType">
+       UPDATE dataType SET name = #{name}, fieldList = #{fieldList}
+       WHERE id = #{id}
+   </update>
+    <select id="queryDataTypeByName" parameterType="string" resultType="DataType">
+        SELECT * FROM dataType
+        WHERE name = #{name}
+    </select>
+    <!-- 批量删除 -->
+    <delete id="deleteDataTypeBatch" parameterType="int[]">
+        delete from dataType where id in
+        <foreach collection="array" item="arr" index="no" open="("
+                 separator="," close=")">
+            #{arr}
+        </foreach>
+    </delete>
+</mapper>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.BrowseRecordDao">
+    <resultMap id="browseRecordResultMap" type="BrowseRecord">
+        <id property="userId" column="userId"/>
+        <id property="time" column="time"/>
+    </resultMap>
+    <insert id="addBrowseRecord" parameterType="BrowseRecord">
+        INSERT INTO browseRecord(userId, time)
+        VALUE (#{userId}, #{time})
+    </insert>
+    <select id="queryBrowseRecordById" resultType="BrowseRecord" parameterType="int">
+        SELECT *
+        FROM browseRecord
+        WHERE userId = #{userId}
+        order by time desc
+        limit 2;
+    </select>
+    <delete id="deleteBrowseRecordById" parameterType="int">
+        DELETE FROM browseRecord WHERE userId = #{userId}
+    </delete>
+    <select id="getNumberOfBrowseRecordById" resultType="int">
+        SELECT count(*) FROM browseRecord where userId = #{userId};
+    </select>
+    <select id="getNumberOfBrowseRecord" resultType="int">
+        SELECT count(*) FROM browseRecord;
+    </select>
+</mapper>
